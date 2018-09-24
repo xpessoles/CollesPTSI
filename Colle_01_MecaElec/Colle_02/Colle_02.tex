@@ -41,7 +41,7 @@
 %\def\xxonglet{Part. 1 -- Ch. 3}
 \def\xxonglet{\textsf{}}%Cycle 05}}
 
-\def\xxactivite{Colle 01}
+\def\xxactivite{Colle 02}
 \def\xxauteur{\textsl{Xavier Pessoles}}
 
 
@@ -100,134 +100,26 @@
 \subparagraph*{}
 \textit{Sur le circuit suivant, déterminer les courants dans chacune des mailles et la tension aux bornes de tous les dipôles.}
 \begin{center}
-\includegraphics[width=\linewidth]{images/fig_01}
+\includegraphics[width=\linewidth]{images/fig_02}
 \end{center}
 
 
 \section*{Exercice 2 -- Résistance équivalente}
 \textit{Déterminer la résistance équivalente du montage suivant.}
 \begin{center}
-\includegraphics[width=\linewidth]{images/fig_05}
+\includegraphics[width=\linewidth]{images/fig_06}
 \end{center}
 
 
 
-\section*{Exercice 3}
 
-Pour aller rechercher des produits dans leurs rayons, Amazon utilise des axes linéaires afin de déplacer un préhenseur.
-\begin{center}
-\includegraphics[width=\linewidth]{images/fig_11}
-\end{center}
-
-Les performances dynamique de l'axe demandées sont les suivantes : 
-\begin{itemize}
-\item vitesse linéaire maximale : $50 \; \text{m}\,\text{min}^{-1}$;
-\item accélération linéaire maximale : $9,8 \; \text{m}\, \text{s}^{-2}$.
-\end{itemize}
-
-\begin{obj}
-L'objectif de ce travail est de déterminer les caractéristiques du moteur (vitesse et couple) permettant d'atteindre ces performances.
-\end{obj}
-
-\subparagraph{}
-\textit{Quelle est la vitesse maximale que l'axe peut atteindre en  $\text{m}\, \text{s}^{-1}$.}
-\ifprof
-\begin{corrige}
-$V = 0,83 \, \text{ms}^{-1}$
-\end{corrige}
-\else
-\fi
-
-\subparagraph{}
-\textit{Combien de temps l'axe met-il pour atteindre la vitesse maximale ?}
-\ifprof
-\begin{corrige}
-$T_a =0,83/9,8 = 0,08 s$
-\end{corrige}
-\else
-\fi
-
-\subparagraph{}
-\textit{Quelle distance l'axe parcourt-il pour atteindre la vitesse maximale ?}
-\ifprof
-\begin{corrige}
-\end{corrige}
-\else
-\fi
-
-
-\subparagraph{}
-\textit{Quelle est la longueur minimale à commander pour que l'axe puisse atteindre la vitesse maximale ?}
-\ifprof
-\begin{corrige}
-\end{corrige}
-\else
-\fi
-
-\subparagraph{}
-\textit{Proposer une longueur minimale de l'axe pour pouvoir profiter de ses performances dynamiques.}
-\ifprof
-\begin{corrige}
-\end{corrige}
-\else
-\fi
-
-
-\subparagraph{}
-\textit{Tracer le profil de la position, de la vitesse et de l'accélération pour parcourir une distance de 50 cm. On cherchera à atteindre les performances maximales de l'axe. }
-\ifprof
-\begin{corrige}
-\end{corrige}
-\else
-\fi
-
-
-Un motoréducteur permet d'entraîner un système poulie -- courroie permettant de déplacer la charge. On considère :
-\begin{itemize}
-\item une charge de masse $1\; \text{kg}$;
-\item un poulie de rayon $5\; \text{cm}$;
-\item un réducteur de rapport de transmission $1:20$.
-\end{itemize}
-
-\begin{center}
-\includegraphics[width=.9\linewidth]{images/fig_12}
-\end{center}
-
-\subparagraph{}
-\textit{Déterminer le couple à fournir par la poulie pour déplacer la charge lorsque l'accélération est au maximum. }
-\ifprof
-\begin{corrige}
-\end{corrige}
-\else
-\fi
-
-
-\subparagraph{}
-\textit{Déterminer la vitesse et le couple à fournir par le moteur en considérant que l'inertie du motoréducteur est négligeable. }
-\ifprof
-\begin{corrige}
-\end{corrige}
-\else
-\fi
-
-
-\subparagraph{}
-\textit{Donner la méthode permettant de prendre en compte l'inertie $J$ du motoréducteur ? Quel serait l'impact de la prise en compte de cette hypothèse ? }
-\ifprof
-\begin{corrige}
-\end{corrige}
-\else
-\fi
-
-
-\section*{Exercice 4}
+\section*{Exercice 3 -- Calcul de moments}
 
 \setcounter{subparagraph}{0}
 On donne la structure suivante : 
 \begin{center}
-\includegraphics[width=.8\linewidth]{images/fig_21}
+\includegraphics[width=.8\linewidth]{images/fig_23}
 \end{center}
-
 
 \subparagraph{}
 \textit{Déterminer $\vect{\mathcal{M}\left(A,\vect{F} \right)}$.}
@@ -236,12 +128,26 @@ On donne la structure suivante :
 
 On donne la structure suivante : 
 \begin{center}
-\includegraphics[width=.8\linewidth]{images/fig_22}
+\includegraphics[width=.8\linewidth]{images/fig_24}
 \end{center}
 
 
 \subparagraph{}
-\textit{Déterminer $\vect{\mathcal{M}\left(O,\vect{F} \right)}$.}
+\textit{Déterminer $\vect{\mathcal{M}\left(B,\vect{F} \right)}$.}
+
+
+
+
+\section*{Exercice 4 -- Solide en rotation}
+\setcounter{subparagraph}{0}
+
+ Une machine est entraînée par un moteur électrique de fréquence nominale $1\,500\; \text{tr}\,\text{min}^{-1}$. Celui-ci exerce au démarrage un couple moteur constant de $40\; \text{N}\,\,\text{m}$. Le moment d’inertie de l’ensemble de la chaîne cinématique rapporté à l’axe du rotor est de $12,5\; \text{kg}\,\text{m}^2$. Le couple résistant dû aux frottements est supposé constant et égal à $4\, \text{N} \, \text{m}$.
+
+\subparagraph{}
+\textit{Calculer l’accélération du moteur pendant le démarrage.}
+
+\subparagraph{}
+\textit{Calculer le temps mis pour atteindre la fréquence nominale.}
 
 \end{multicols}
 
