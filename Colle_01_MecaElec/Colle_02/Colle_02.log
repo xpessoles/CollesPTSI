@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  24 SEP 2018 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  25 SEP 2018 17:53
 entering extended mode
 **./Colle_02.tex
 (Colle_02.tex
@@ -2321,11 +2321,11 @@ Package logreq Info: Writing requests to 'Colle_02.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
  ) 
 Here is how much of TeX's memory you used:
- 43837 strings out of 492972
- 820690 string characters out of 3135883
+ 43847 strings out of 492972
+ 820800 string characters out of 3135883
  1391451 words of memory out of 3000000
  46973 multiletter control sequences out of 15000+200000
- 703686 words of font info for 193 fonts, out of 3000000 for 9000
+ 705229 words of font info for 201 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,21n,75p,999b,1881s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}{C:/Program Fil
@@ -2337,7 +2337,7 @@ design/mdput/md-utr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia
 s/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
 w/avantgar/uagd8a.pfb>
-Output written on Colle_02.pdf (1 page, 3069443 bytes).
+Output written on Colle_02.pdf (1 page, 3070054 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
