@@ -1,0 +1,190 @@
+\documentclass[10pt,fleqn]{article} % Default font size and left-justified equations
+\usepackage[%
+    pdftitle={Modélisation SLCI : Rapidité des systèmes},
+    pdfauthor={Xavier Pessoles}]{hyperref}
+    
+\input{style/new_style}
+\input{style/macros_SII}
+\usepackage{multicol}
+\usepackage{siunitx}
+%\usepackage{picins}
+\fichetrue
+%\fichefalse
+
+\proftrue
+\proffalse
+
+\tdtrue
+%\tdfalse
+
+\courstrue
+\coursfalse
+
+\def\discipline{Sciences \\Industrielles de \\ l'Ingénieur}
+\def\xxtete{Sciences Industrielles de l'Ingénieur}
+
+\def\classe{PTSI}
+\def\xxnumpartie{Cycle 02}
+\def\xxpartie{Modéliser les systèmes asservis }
+
+
+\def\xxnumchapitre{}%Chapitre 3 \vspace{.2cm}}
+\def\xxchapitre{}%\hspace{.12cm} Précision des systèmes}
+
+
+\def\xxtitreexo{Tuyère à ouverture variable}
+\def\xxsourceexo{\hspace{.2cm} \footnotesize{Concours Banque PT SIA -  2011}}
+
+
+\def\xxposongletx{2}
+\def\xxposonglettext{1.45}
+\def\xxposonglety{20}
+%\def\xxonglet{Part. 1 -- Ch. 3}
+\def\xxonglet{Cycle 02}
+
+\def\xxactivite{Colle  02}
+\def\xxauteur{\textsl{Xavier Pessoles}}
+
+\def\xxcompetences{%
+\textsl{%
+\textbf{Savoirs et compétences :}\\
+%Les sources sont associées par un \emph{hacheur série}. La détermination des grandeurs électriques associées à ce montage permet de conclure vis à vis du cahier des charges.
+%\noindent \textbf{Résoudre :} à partir des modèles retenus :
+%\begin{itemize}[label=\ding{112},font=\color{ocre}] 
+%\item choisir une méthode de résolution analytique, graphique, numérique;
+%\item mettre en \oe{}uvre une méthode de résolution.
+%\end{itemize}
+%\begin{itemize}[label=\ding{112},font=\color{ocre}] 
+%\item \textit{Rés -- C1.1 :} Loi entrée sortie géométrique et cinématique -- Fermeture géométrique.
+%\end{itemize}
+%
+%\noindent \textit{Mod2 -- C4.1 :} Représentation par schéma bloc.
+}}
+
+\def\xxfigures{
+\includegraphics[width=.6\linewidth]{images/fig_01}
+}%figues de la page de garde
+
+
+\def\xxpied{%
+Cycle 02 -- Modéliser les SLCI afin de prévoir leur comportement\\
+%Chapitre 3 -- \xxactivite%
+}
+
+\setcounter{secnumdepth}{5}
+%---------------------------------------------------------------------------
+
+\usepackage{pgfplots}
+\begin{document}
+
+%\chapterimage{png/Fond_Cin}
+\input{style/new_pagegarde}
+\vspace{4.5cm}
+\pagestyle{fancy}
+\thispagestyle{plain}
+
+\def\columnseprulecolor{\color{ocre}}
+\setlength{\columnseprule}{0.4pt} 
+
+\def\pathfig{images}
+
+\begin{multicols}{2}
+
+
+
+%\section{Fauteuil dynamique de cinéma}
+\section*{Présentation du système}
+
+
+\section*{Modélisation du comportement du vérin -- hypothèse fluide compressible}
+\begin{obj}
+Il s'agit ici de proposer un modèle plus affiné du comportement du vérin en tenant compte de la compressibilité du fluide et du comportement dynamique du mécanisme.
+\end{obj}		
+
+
+Pour rendre compte du comportement dynamique du système on propose un modèle de comportement du vérin en tenant compte de la compressibilité du fluide. L'évolution du débit est alors une fonction du déplacement mais aussi de la pression sous la forme de la relation suivante : $q(t)=S\dfrac{\dd x(t)}{\dd t}+\dfrac{V_0}{B}\dfrac{\dd \sigma(t)}{\dd t}$ avec : 
+\begin{itemize}
+\item $\sigma(t)$ : pression utile dans le vérin. On notera $\Sigma(p)$ sa transformée;
+\item $V_0$ : demi volume de fluide contenu dans le vérin;
+\item $B$ : coefficient de compressibilité du fluide.
+\end{itemize}  
+
+La pression utile induit l'effort développé par le vérin que nous noterons $F_v$ tel que : $F_V(p)=S\Sigma(p)$ où $S$ représente la section utile du vérin en sortie de tige.
+
+$V(p)$ représente l'image par la transformation de Laplace de la vitesse de translation $v(t)$ de la tige du vérin. 
+
+En considérant les actions de pesanteur négligeables et en se plaçant dans une phase de test à vide (sans flux d'air), l'application des lois de la dynamique donne la relation suivante : $F_V(t)=M_{\text{eq}} \dfrac{\dd^2 x(t)}{\dd t^2}$.
+
+
+\subparagraph{}\textit{À partir des équations, compléter le schéma-blocs en indiquant les fonctions de transferts de chaque bloc.}
+\ifprof
+\begin{corrige}
+\begin{center}
+%\includegraphics[width=.95\linewidth]{images/cor_10}
+%\textit{}
+\end{center}
+
+\end{corrige}
+\else
+\fi
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_05}
+%\textit{}
+\end{center}
+
+On note $F_R$ l'action mécanique résistante équivalente pour quatre volets. On a $F_R(t) = K_F x(t)$. L'application du théorème de l'énergie cinétique se traduit par $M_{\text{eq}}\ddot{x}(t)=\left(F_V(t)-F_R(t)\right)$. 
+
+
+\subparagraph{}\textit{Compléter le schéma-blocs précédent pour intégrer l'effort résistant.}
+\ifprof
+\begin{corrige}
+\begin{center}
+%\includegraphics[width=.95\linewidth]{images/cor_10}
+\end{center}
+\end{corrige}
+\else
+\fi
+
+\subparagraph{}\textit{Donner l'expression de la fonction de transfert du vérin $H_V(p)=\dfrac{X(p)}{Q(p)}$. On donnera le résultat sous la forme $H_V(p)=\dfrac{K_V}{p\left(1+a_2 p^2 \right)}$ en précisant les expression de $K_V$ et $a_2$.}
+\ifprof
+\begin{corrige}
+\begin{center}
+%\includegraphics[width=.95\linewidth]{images/cor_10}
+\end{center}
+\end{corrige}
+\else
+\fi
+
+
+\subsection*{Éléments de correction}
+\begin{enumerate}
+\item ...
+\item ...
+\item ...
+\end{enumerate}
+\end{multicols}
+
+%\begin{center}
+%\includegraphics[width=\linewidth]{images/schema_bloc.jpg}
+%
+%\textit{Schéma-blocs de l'asservissement du dosseret \label{fig6}}
+%\end{center}
+
+\end{document}
+
+\subparagraph{}\textit{}
+\ifprof
+\begin{corrige}
+\end{corrige}
+\else
+\fi
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/}
+%\textit{}
+\end{center}
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_04}
+%\textit{}
+\end{center}
+
