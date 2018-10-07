@@ -12,7 +12,7 @@
 %\fichefalse
 
 \proftrue
-%\proffalse
+\proffalse
 
 \tdtrue
 %\tdfalse
@@ -94,6 +94,8 @@ Cycle 02 -- Modéliser les SLCI afin de prévoir leur comportement\\
 
 %\section{Fauteuil dynamique de cinéma}
 \subsection*{Présentation du système}
+\ifprof
+\else
 Les propulseurs utilisés dans les applications militaires ou civiles subissent, des tests de certification
 visant à contrôler leur bon fonctionnement et le respect des normes de sécurité.
 
@@ -121,7 +123,7 @@ actionnée par quatre vérins hydrauliques et permettant de faire varier la vite
 %\textit{}
 \end{center}
 
-
+\fi
 
 \begin{obj}
 On souhaite vérifier que le système permet de respecter le cahier des charges suivant : 
@@ -134,9 +136,13 @@ On souhaite vérifier que le système permet de respecter le cahier des charges 
 
 
 \subsection*{Modélisation du comportement du vérin -- hypothèse fluide compressible}
+\ifprof
+\else
+
 \begin{obj}
 Il s'agit ici de proposer un modèle plus affiné du comportement du vérin en tenant compte de la compressibilité du fluide et du comportement dynamique du mécanisme.
 \end{obj}		
+
 
 
 Pour rendre compte du comportement dynamique du système on propose un modèle de comportement du vérin en tenant compte de la compressibilité du fluide. L'évolution du débit est alors une fonction du déplacement mais aussi de la pression sous la forme de la relation suivante : $q(t)=S\dfrac{\dd x(t)}{\dd t}+\dfrac{V_0}{B}\dfrac{\dd \sigma(t)}{\dd t}$ avec : 
@@ -152,6 +158,7 @@ $V(p)$ représente l'image par la transformation de Laplace de la vitesse de tra
 
 En considérant les actions de pesanteur négligeables et en se plaçant dans une phase de test à vide (sans flux d'air), l'application des lois de la dynamique donne la relation suivante : $F_V(t)=M_{\text{eq}} \dfrac{\dd^2 x(t)}{\dd t^2}$.
 
+\fi 
 
 \subparagraph{}\textit{À partir des équations, compléter le schéma-blocs en indiquant les fonctions de transferts de chaque bloc.}
 \ifprof
@@ -163,14 +170,14 @@ En considérant les actions de pesanteur négligeables et en se plaçant dans un
 
 \end{corrige}
 \else
-\fi
+\
 \begin{center}
 \includegraphics[width=\linewidth]{images/fig_05}
 %\textit{}
 \end{center}
 
 On note $F_R$ l'action mécanique résistante équivalente pour quatre volets. On a $F_R(t) = K_F x(t)$. L'application du théorème de l'énergie cinétique se traduit par $M_{\text{eq}}\ddot{x}(t)=\left(F_V(t)-F_R(t)\right)$. 
-
+\fi
 
 \subparagraph{}\textit{Modifier le schéma-blocs précédent pour intégrer l'effort résistant.}
 \ifprof
@@ -193,12 +200,18 @@ On note $F_R$ l'action mécanique résistante équivalente pour quatre volets. O
 \fi
 
 \subsection*{Validation du comportement du vérin} 
+
+\ifprof
+\else
+
 Afin de valider le modèle établi, on se propose d'étudier le comportement en boucle fermée de la chaîne fonctionnelle de commande du vérin. On rappelle ci-dessous le schéma-bloc retenu et on considérera une correction proportionnelle telle que  $C(p)=K_p$.
 
 \begin{center}
 \includegraphics[width=\linewidth]{images/fig_06}
 %\textit{}
 \end{center}
+\fi
+
 \subparagraph{}\textit{Donner  l'expression de la forme canonique de la fonction de transfert en boucle fermée $H_{\text{BF}}(p)=\dfrac{X(p)}{X_{\text{ref}}(p)}$ . On donnera le résultat en fonction de $K_C$, $K_U$, $K_D$, $K_p$, $K_V$ et $a_2$. }
 \ifprof
 \begin{corrige} ~\\
@@ -210,8 +223,15 @@ Afin de valider le modèle établi, on se propose d'étudier le comportement en 
 \fi
 
 \subsection*{Prise en compte du débit de fuite} 
-Pour pallier le problème de stabilité du modèle précédemment établi, une solution possible consiste à un introduire un débit de fuite entre les deux chambres du vérin. Celui-ci a pour effet de réduire artificiellement le débit réel entrant dans le vérin en fonction de la pression utile. Ce débit vaut alors : $q(t)-\delta \sigma (t)$  où $\delta$ est le coefficient de débit de fuite.
+\ifprof
+\else
 
+Pour pallier le problème de stabilité du modèle précédemment établi, une solution possible consiste à un introduire un débit de fuite entre les deux chambres du vérin. Celui-ci a pour effet de réduire artificiellement le débit réel entrant dans le vérin en fonction de la pression utile. Ce débit vaut alors : $q(t)-\delta \sigma (t)$  où $\delta$ est le coefficient de débit de fuite.
+\fi
+
+\ifprof
+\newpage
+\else \fi
 
 \subparagraph{}\textit{Modifier le schéma-blocs précédent pour intégrer le débit de fuite.}
 \ifprof
