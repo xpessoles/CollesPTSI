@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  6 OCT 2018 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  9 OCT 2018 20:43
 entering extended mode
 **./Colle_01_Clever.tex
 (Colle_01_Clever.tex
@@ -2553,11 +2553,11 @@ Underfull \hbox (badness 7631) in paragraph at lines 196--197
  []
 
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 203.
+(Font)              scaled to size 7.52002pt on input line 198.
 LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 7.52002pt on input line 203.
+(Font)              scaled to size 7.52002pt on input line 198.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 203.
+(Font)              scaled to size 7.52002pt on input line 198.
 [1
 
 {C:/Users/xpess/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
@@ -2608,17 +2608,20 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 308.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'Colle_01_Clever.run.xml'.
 \openout1 = `Colle_01_Clever.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
  ) 
 Here is how much of TeX's memory you used:
- 53849 strings out of 492972
- 1155727 string characters out of 3135883
+ 53823 strings out of 492972
+ 1155184 string characters out of 3135883
  1819505 words of memory out of 3000000
- 56713 multiletter control sequences out of 15000+200000
- 749599 words of font info for 281 fonts, out of 3000000 for 9000
+ 56695 multiletter control sequences out of 15000+200000
+ 749063 words of font info for 275 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,96p,1006b,1893s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
@@ -2634,7 +2637,7 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program
 /putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagdo8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
-Output written on Colle_01_Clever.pdf (2 pages, 589817 bytes).
+Output written on Colle_01_Clever.pdf (2 pages, 590341 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
