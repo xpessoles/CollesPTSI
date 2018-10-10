@@ -131,7 +131,7 @@ L'objectif est que le mouvement de l'habitacle soit contrôlé :
 
 L'orientation de l'habitacle est contrôlée par un asservissement de la position angulaire. L'architecture de cet asservissement est représentée par le schéma-blocs de le figure suivante.
 
-On modélise le comportement du servo-distributeur par un gain pur noté $K_s$ et le capteur par $H_c(p)=C$ avec $C=\SI{1}{V.rad^{-1}}$.
+On modélise le comportement du servo-distributeur par un gain pur noté $K_s$ et le capteur par $H_c(p)=C$ avec $C=\SI{1}{V.rad^{-1}}$.  L'adaptateur mécanique a un comportement linéaire sur l'intervalle d'utilisation. On a donc $H_{\text{am}}(p)=R$ ($R=\SI{7}{rad.m^{-1}}$). Enfin, on considère que $H_r(p)=1$. 
 
 \begin{center}
 \includegraphics[width=\linewidth]{images/fig_05}
@@ -139,7 +139,7 @@ On modélise le comportement du servo-distributeur par un gain pur noté $K_s$ e
 
 À ce stade de l'étude, le modèle de comportement du fluide correspond à un comportement incompressible. L'équation caractérisant le comportement du vérin est alors : $q(t)=S\dot{\lambda}(t)$ où :
 \begin{itemize}
-\item $S$ représente la section utile du vérin en sortie de tige ;
+\item $S$ représente la section utile du vérin en sortie de tige (diamètre \SI{32}{mm});
 \item $q$ est le débit en entrée de vérin ;
 \item $\dot{\lambda}(t)=\dfrac{\dd \lambda(t) }{\dd t}$ est la vitesse de translation de la tige du vérin par rapport au corps.
 \end{itemize}
