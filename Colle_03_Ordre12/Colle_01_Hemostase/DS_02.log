@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  16 OCT 2018 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  25 OCT 2018 16:43
 entering extended mode
-**./Colle_01_Clever.tex
-(Colle_01_Clever.tex
+**./DS_02.tex
+(DS_02.tex
 LaTeX2e <2018-04-01> patch level 5
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -104,6 +104,110 @@ Now handling font encoding PD1 ...
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhbox' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\voidb@x' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhbox' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\voidb@x' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempboxa' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\global' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchardef' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\spacefactor' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\accent' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\spacefactor' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhbox' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\voidb@x' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhbox' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\voidb@x' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempboxa' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\global' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchardef' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\spacefactor' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\accent' on input line 4383.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\spacefactor' on input line 4383.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\unhbox' on input line 4383.
@@ -1168,10 +1272,10 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write6
-\openout6 = `Colle_01_Clever.idx'.
+\openout6 = `DS_02.idx'.
 
 
-Writing index file Colle_01_Clever.idx
+Writing index file DS_02.idx
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titletoc.sty"
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen257
@@ -1827,50 +1931,118 @@ File: lstlang2.sty 2018/09/02 1.7 listings language file
 File: lstlang3.sty 2018/09/02 1.7 listings language file
 ))
 (style/macros_SII.tex)
+("C:\Program Files\MiKTeX 2.9\tex\latex\standalone\standalone.sty"
+Package: standalone 2018/03/26 v1.3a Package to include TeX sub-files with prea
+mbles
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\currfile\currfile.sty"
+Package: currfile 2015/04/23 v0.7c Provides the file path elements of the curre
+nt input file
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\filehook\filehook.sty"
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)
+\c@currfiledepth=\count480
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\gincltex\gincltex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\svn-prov\svn-prov.sty"
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box98
+)
+\tc@llx=\dimen309
+\tc@lly=\dimen310
+\tc@urx=\dimen311
+\tc@ury=\dimen312
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen313
+\adjbox@Height=\dimen314
+\adjbox@Depth=\dimen315
+\adjbox@Totalheight=\dimen316
+\adjbox@pwidth=\dimen317
+\adjbox@pheight=\dimen318
+\adjbox@pdepth=\dimen319
+\adjbox@ptotalheight=\dimen320
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\varwidth\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box99
+\sift@deathcycles=\count481
+\@vwid@loff=\dimen321
+\@vwid@roff=\dimen322
+))
+\gincltex@box=\box100
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\filemod\filemod-expmin.sty"
+Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
+ (expandable; minimal)
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2018-08-23 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box98
-\l__siunitx_tmp_dim=\dimen309
-\l__siunitx_tmp_int=\count480
-\l__siunitx_number_mantissa_length_int=\count481
-\l__siunitx_number_uncert_length_int=\count482
-\l__siunitx_round_int=\count483
-\l__siunitx_process_decimal_int=\count484
-\l__siunitx_process_uncertainty_int=\count485
-\l__siunitx_process_fixed_int=\count486
-\l__siunitx_process_integer_min_int=\count487
-\l__siunitx_process_precision_int=\count488
-\l__siunitx_group_min_int=\count489
-\l__siunitx_angle_marker_box=\box99
-\l__siunitx_angle_unit_box=\box100
-\l__siunitx_angle_marker_dim=\dimen310
-\l__siunitx_angle_unit_dim=\dimen311
-\l__siunitx_unit_int=\count490
-\l__siunitx_unit_denominator_int=\count491
-\l__siunitx_unit_numerator_int=\count492
-\l__siunitx_unit_prefix_int=\count493
-\l__siunitx_unit_prefix_base_int=\count494
-\l__siunitx_unit_prefix_gram_int=\count495
-\l__siunitx_number_product_int=\count496
+\l__siunitx_tmp_box=\box101
+\l__siunitx_tmp_dim=\dimen323
+\l__siunitx_tmp_int=\count482
+\l__siunitx_number_mantissa_length_int=\count483
+\l__siunitx_number_uncert_length_int=\count484
+\l__siunitx_round_int=\count485
+\l__siunitx_process_decimal_int=\count486
+\l__siunitx_process_uncertainty_int=\count487
+\l__siunitx_process_fixed_int=\count488
+\l__siunitx_process_integer_min_int=\count489
+\l__siunitx_process_precision_int=\count490
+\l__siunitx_group_min_int=\count491
+\l__siunitx_angle_marker_box=\box102
+\l__siunitx_angle_unit_box=\box103
+\l__siunitx_angle_marker_dim=\dimen324
+\l__siunitx_angle_unit_dim=\dimen325
+\l__siunitx_unit_int=\count492
+\l__siunitx_unit_denominator_int=\count493
+\l__siunitx_unit_numerator_int=\count494
+\l__siunitx_unit_prefix_int=\count495
+\l__siunitx_unit_prefix_base_int=\count496
+\l__siunitx_unit_prefix_gram_int=\count497
+\l__siunitx_number_product_int=\count498
 \c__siunitx_one_fill_skip=\skip183
 \l__siunitx_table_unit_align_skip=\skip184
-\l__siunitx_table_exponent_dim=\dimen312
-\l__siunitx_table_integer_dim=\dimen313
-\l__siunitx_table_mantissa_dim=\dimen314
-\l__siunitx_table_marker_dim=\dimen315
-\l__siunitx_table_result_dim=\dimen316
-\l__siunitx_table_uncert_dim=\dimen317
-\l__siunitx_table_fill_pre_dim=\dimen318
-\l__siunitx_table_fill_post_dim=\dimen319
-\l__siunitx_table_fill_mid_dim=\dimen320
-\l__siunitx_table_pre_box=\box101
-\l__siunitx_table_post_box=\box102
-\l__siunitx_table_mantissa_box=\box103
-\l__siunitx_table_result_box=\box104
+\l__siunitx_table_exponent_dim=\dimen326
+\l__siunitx_table_integer_dim=\dimen327
+\l__siunitx_table_mantissa_dim=\dimen328
+\l__siunitx_table_marker_dim=\dimen329
+\l__siunitx_table_result_dim=\dimen330
+\l__siunitx_table_uncert_dim=\dimen331
+\l__siunitx_table_fill_pre_dim=\dimen332
+\l__siunitx_table_fill_post_dim=\dimen333
+\l__siunitx_table_fill_mid_dim=\dimen334
+\l__siunitx_table_pre_box=\box104
+\l__siunitx_table_post_box=\box105
+\l__siunitx_table_mantissa_box=\box106
+\l__siunitx_table_result_box=\box107
 \l__siunitx_table_number_align_skip=\skip185
 \l__siunitx_table_text_align_skip=\skip186
 .................................................
@@ -1992,18 +2164,26 @@ Package: l3keys2e 2018-08-23 LaTeX2e option processing using LaTeX3 keys
 ("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator.sty"
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen335
+\WF@size=\dimen336
+\c@WF@wrappedlines=\count499
+\WF@box=\box108
+\WF@everypar=\toks49
+Package: wrapfig 2003/01/31  v 3.6
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex")
 Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscore.code.tex"
-\t@pgfplots@toka=\toks49
-\t@pgfplots@tokb=\toks50
-\t@pgfplots@tokc=\toks51
-\pgfplots@tmpa=\dimen321
-\c@pgfplots@coordindex=\count497
-\c@pgfplots@scanlineindex=\count498
+\t@pgfplots@toka=\toks50
+\t@pgfplots@tokb=\toks51
+\t@pgfplots@tokc=\toks52
+\pgfplots@tmpa=\dimen337
+\c@pgfplots@coordindex=\count500
+\c@pgfplots@scanlineindex=\count501
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.
 tex"))
@@ -2019,7 +2199,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 fsupp_pgflibraryfpu.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
 fsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count499
+\c@pgfmathroundto@lastzeros=\count502
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
 fsupp_leq.code.tex"))
@@ -2030,14 +2210,14 @@ ructure.code.tex")
 ructureext.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsarray.
 code.tex"
-\c@pgfplotsarray@tmp=\count500
+\c@pgfplotsarray@tmp=\count503
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsmatrix
 .code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstableshared
 .code.tex"
-\c@pgfplotstable@counta=\count501
-\t@pgfplotstable@a=\toks52
+\c@pgfplotstable@counta=\count504
+\t@pgfplotstable@a=\toks53
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsdeque.
 code.tex")
@@ -2049,7 +2229,7 @@ e.tex"))
 tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplots.surf
 shading.code.tex"
-\c@pgfplotslibrarysurf@no=\count502
+\c@pgfplotslibrarysurf@no=\count505
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfs
 hading.pgfsys-pdftex.def")))
@@ -2076,16 +2256,16 @@ ex")))
 librarydecorations.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code
 .tex"
-\pgfdecoratedcompleteddistance=\dimen322
-\pgfdecoratedremainingdistance=\dimen323
-\pgfdecoratedinputsegmentcompleteddistance=\dimen324
-\pgfdecoratedinputsegmentremainingdistance=\dimen325
-\pgf@decorate@distancetomove=\dimen326
-\pgf@decorate@repeatstate=\count503
-\pgfdecorationsegmentamplitude=\dimen327
-\pgfdecorationsegmentlength=\dimen328
+\pgfdecoratedcompleteddistance=\dimen338
+\pgfdecoratedremainingdistance=\dimen339
+\pgfdecoratedinputsegmentcompleteddistance=\dimen340
+\pgfdecoratedinputsegmentremainingdistance=\dimen341
+\pgf@decorate@distancetomove=\dimen342
+\pgf@decorate@repeatstate=\count506
+\pgfdecorationsegmentamplitude=\dimen343
+\pgfdecorationsegmentlength=\dimen344
 )
-\tikz@lib@dec@box=\box105
+\tikz@lib@dec@box=\box109
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarydecorations.pathmorphing.code.tex"
@@ -2095,13 +2275,13 @@ ecorations.pathmorphing.code.tex"))
 librarydecorations.pathreplacing.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibraryd
 ecorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count504
-\pgfplots@xmin@reg=\dimen329
-\pgfplots@xmax@reg=\dimen330
-\pgfplots@ymin@reg=\dimen331
-\pgfplots@ymax@reg=\dimen332
-\pgfplots@zmin@reg=\dimen333
-\pgfplots@zmax@reg=\dimen334
+\pgfplots@numplots=\count507
+\pgfplots@xmin@reg=\dimen345
+\pgfplots@xmax@reg=\dimen346
+\pgfplots@ymin@reg=\dimen347
+\pgfplots@ymax@reg=\dimen348
+\pgfplots@zmin@reg=\dimen349
+\pgfplots@zmax@reg=\dimen350
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 libraryplotmarks.code.tex"
@@ -2120,48 +2300,51 @@ File: french.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count505
-\@quotereset=\count506
-(Colle_01_Clever.aux)
-\openout1 = `Colle_01_Clever.aux'.
+\@quotelevel=\count508
+\@quotereset=\count509
+(DS_02.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 78.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 78.
+LaTeX Warning: Label `26' multiply defined.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd"
+)
+\openout1 = `DS_02.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 83.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 83.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd"
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 78.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 78.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 83.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 83.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbcmr.fd"
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 78.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 78.
-\AtBeginShipoutBox=\box106
-Package hyperref Info: Link coloring OFF on input line 78.
+LaTeX Font Info:    ... okay on input line 83.
+\AtBeginShipoutBox=\box110
+Package hyperref Info: Link coloring OFF on input line 83.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2169,11 +2352,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count507
+\c@section@level=\count510
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2211,17 +2394,17 @@ LaTeX Info: Redefining \nameref on input line 78.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count508
-\scratchdimen=\dimen335
-\scratchbox=\box107
-\nofMPsegments=\count509
-\nofMParguments=\count510
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count511
-\MPscratchDim=\dimen336
-\MPnumerator=\count512
-\makeMPintoPDFobject=\count513
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count511
+\scratchdimen=\dimen351
+\scratchbox=\box111
+\nofMPsegments=\count512
+\nofMParguments=\count513
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count514
+\MPscratchDim=\dimen352
+\MPnumerator=\count515
+\makeMPintoPDFobject=\count516
+\everyMPtoPDFconversion=\toks55
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2236,10 +2419,10 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \degres on input line 78.
-LaTeX Info: Redefining \dots on input line 78.
-LaTeX Info: Redefining \up on input line 78.
-LaTeX Info: Redefining \microtypecontext on input line 78.
+LaTeX Info: Redefining \degres on input line 83.
+LaTeX Info: Redefining \dots on input line 83.
+LaTeX Info: Redefining \up on input line 83.
+LaTeX Info: Redefining \microtypecontext on input line 83.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2256,15 +2439,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `Colle_01_Clever.bcf'.
+\openout5 = `DS_02.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Colle_01_Clever.bbl' not found.
+Package biblatex Info: ... file 'DS_02.bbl' not found.
 
-No file Colle_01_Clever.bbl.
-Package biblatex Info: Reference section=0 on input line 78.
-Package biblatex Info: Reference segment=0 on input line 78.
-\c@lstlisting=\count514
+No file DS_02.bbl.
+Package biblatex Info: Reference section=0 on input line 83.
+Package biblatex Info: Reference segment=0 on input line 83.
+\c@lstlisting=\count517
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
 English.dict"
@@ -2277,82 +2460,82 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 78.
+ on input line 83.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `mdput' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 78.
+(Font)              scaled to size 6.58002pt on input line 83.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 78.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 78
+(Font)              scaled to size 4.70001pt on input line 83.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 83
 .
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omlmdput.fd"
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 78.
+(Font)              scaled to size 9.40002pt on input line 83.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 78.
+(Font)              scaled to size 6.58002pt on input line 83.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 78.
-LaTeX Font Info:    Try loading font information for OMS+mdput on input line 78
+(Font)              scaled to size 4.70001pt on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+mdput on input line 83
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omsmdput.fd"
 File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
 )
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 78.
+(Font)              scaled to size 9.40002pt on input line 83.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 78.
+(Font)              scaled to size 6.58002pt on input line 83.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 78.
-LaTeX Font Info:    Try loading font information for OMX+mdput on input line 78
+(Font)              scaled to size 4.70001pt on input line 83.
+LaTeX Font Info:    Try loading font information for OMX+mdput on input line 83
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omxmdput.fd"
 File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
 )
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 78.
+(Font)              scaled to size 9.40002pt on input line 83.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 78.
+(Font)              scaled to size 6.58002pt on input line 83.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 78.
+(Font)              scaled to size 4.70001pt on input line 83.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 78.
+(Font)              scaled to size 9.40002pt on input line 83.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 78.
+(Font)              scaled to size 6.58002pt on input line 83.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 78.
-LaTeX Font Info:    Try loading font information for MDA+mdput on input line 78
+(Font)              scaled to size 4.70001pt on input line 83.
+LaTeX Font Info:    Try loading font information for MDA+mdput on input line 83
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdamdput.fd"
 File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
 )
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 78.
+(Font)              scaled to size 9.40002pt on input line 83.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 78.
+(Font)              scaled to size 6.58002pt on input line 83.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 78.
-LaTeX Font Info:    Try loading font information for MDB+mdput on input line 78
+(Font)              scaled to size 4.70001pt on input line 83.
+LaTeX Font Info:    Try loading font information for MDB+mdput on input line 83
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdbmdput.fd"
 File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
 )
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 78.
+(Font)              scaled to size 9.40002pt on input line 83.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 78.
+(Font)              scaled to size 6.58002pt on input line 83.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 78.
-LaTeX Font Info:    Try loading font information for OT1+pag on input line 78.
+(Font)              scaled to size 4.70001pt on input line 83.
+LaTeX Font Info:    Try loading font information for OT1+pag on input line 83.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pag.fd"
 File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
@@ -2362,15 +2545,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
-(Font)              scaled to size 10.70007pt on input line 78.
+(Font)              scaled to size 10.70007pt on input line 83.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
-(Font)              scaled to size 7.49005pt on input line 78.
+(Font)              scaled to size 7.49005pt on input line 83.
 LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
-(Font)              scaled to size 5.35004pt on input line 78.
+(Font)              scaled to size 5.35004pt on input line 83.
 
 (style/new_pagegarde.tex
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
@@ -2392,11 +2575,6 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
 LaTeX Font Warning: Font shape `T1/pag/b/fsc' undefined
 (Font)              using `T1/pag/b/n' instead on input line 159.
 
-<images/fig_01.png, id=6, 70.5837pt x 61.4295pt>
-File: images/fig_01.png Graphic file (type png)
-<use images/fig_01.png>
-Package pdftex.def Info: images/fig_01.png  used on input line 162.
-(pdftex.def)             Requested size: 85.35913pt x 74.29428pt.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
 (Font)              scaled to size 19.49565pt on input line 166.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
@@ -2460,23 +2638,17 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 170.
 LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <12> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 170.
+
+Underfull \hbox (badness 7944) in paragraph at lines 170--171
+\T1/pag/db/n/12 Char-ge-ment et dé-char-ge-ment des car-gos porte-
+ []
+
 LaTeX Font Info:    Font shape `T1/pag/b/it' in size <9> not available
 (Font)              Font shape `T1/pag/db/it' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/pag/db/it' in size <9> not available
 (Font)              Font shape `T1/pag/db/sl' tried instead on input line 172.
-LaTeX Font Info:    Font shape `T1/pag/b/it' in size <8> not available
-(Font)              Font shape `T1/pag/db/it' tried instead on input line 172.
-LaTeX Font Info:    Font shape `T1/pag/db/it' in size <8> not available
-(Font)              Font shape `T1/pag/db/sl' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
 (Font)              scaled to size 9.40002pt on input line 177.
-LaTeX Font Info:    Font shape `T1/mdput/b/sl' will be
-(Font)              scaled to size 9.40002pt on input line 177.
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-
- []
-
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 178.
 LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <17.28> not available
@@ -2495,101 +2667,142 @@ Package mdframed Info: mdframed inside a box
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 226.
 )
-LaTeX Font Info:    Try loading font information for TS1+mdput on input line 10
+<images/ccp_01.png, id=6, 144.0582pt x 89.3739pt>
+File: images/ccp_01.png Graphic file (type png)
+<use images/ccp_01.png>
+Package pdftex.def Info: images/ccp_01.png  used on input line 113.
+(pdftex.def)             Requested size: 169.29684pt x 105.03888pt.
+<images/ccp_02.png, id=7, 339.9099pt x 127.1952pt>
+File: images/ccp_02.png Graphic file (type png)
+<use images/ccp_02.png>
+Package pdftex.def Info: images/ccp_02.png  used on input line 120.
+(pdftex.def)             Requested size: 386.95897pt x 144.80217pt.
+<images/ccp_03.png, id=8, 337.9827pt x 168.63pt>
+File: images/ccp_03.png Graphic file (type png)
+<use images/ccp_03.png>
+Package pdftex.def Info: images/ccp_03.png  used on input line 124.
+(pdftex.def)             Requested size: 386.95897pt x 193.07129pt.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 7.52002pt on input line 130.
+LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
+(Font)              scaled to size 7.52002pt on input line 130.
+LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
+(Font)              scaled to size 7.52002pt on input line 130.
+ [1
+
+{C:/Users/xpess/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
+ed. <./images/ccp_01.png (PNG copy)> <./images/ccp_02.png (PNG copy)> <./images
+/ccp_03.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for TS1+mdput on input line 13
 2.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\ts1mdput.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\ts1mdput.fd"
 File: ts1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdput.
 )
 LaTeX Font Info:    Font shape `TS1/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 102.
+(Font)              scaled to size 9.40002pt on input line 132.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `mdput' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<images/fig_02.png, id=8, 95.3964pt x 77.088pt>
-File: images/fig_02.png Graphic file (type png)
-<use images/fig_02.png>
-Package pdftex.def Info: images/fig_02.png  used on input line 108.
-(pdftex.def)             Requested size: 111.31905pt x 89.95967pt.
-<images/fig_03.png, id=9, 131.2905pt x 103.3461pt>
-File: images/fig_03.png Graphic file (type png)
-<use images/fig_03.png>
-Package pdftex.def Info: images/fig_03.png  used on input line 109.
-(pdftex.def)             Requested size: 111.31905pt x 87.6254pt.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 120.
-LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 134.
-LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 134.
-<images/fig_05.png, id=10, 363.2772pt x 91.7829pt>
-File: images/fig_05.png Graphic file (type png)
-<use images/fig_05.png>
-Package pdftex.def Info: images/fig_05.png  used on input line 137.
-(pdftex.def)             Requested size: 236.84843pt x 59.84163pt.
+(mdframed)              on input line 142.
+<images/ccp_04.png, id=22, 304.9794pt x 111.0549pt>
+File: images/ccp_04.png Graphic file (type png)
+<use images/ccp_04.png>
+Package pdftex.def Info: images/ccp_04.png  used on input line 151.
+(pdftex.def)             Requested size: 483.69687pt x 176.13753pt.
+<images/ccp_05.png, id=23, 79.2561pt x 88.4103pt>
+File: images/ccp_05.png Graphic file (type png)
+<use images/ccp_05.png>
+Package pdftex.def Info: images/ccp_05.png  used on input line 185.
+(pdftex.def)             Requested size: 120.92421pt x 134.90034pt.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 9.40002pt on input line 148.
+(Font)              scaled to size 9.40002pt on input line 193.
 
 
 Package hyperref Warning: bookmark level for unknown exo defaults to 0.
 
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 148.
+(Font)              scaled to size 9.40002pt on input line 193.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 161.
+(Font)              scaled to size 6.58002pt on input line 198.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 161.
-
-Underfull \hbox (badness 5504) in paragraph at lines 196--197
-[]$\OML/mdput/m/it/10 V[]$ \T1/mdput/m/n/10 (+20) : vo-lume ca-rac-té-ris-tique
- moyen de fluide
- []
-
-
-Underfull \hbox (badness 7631) in paragraph at lines 196--197
-\T1/mdput/m/n/10 (+20) contenu dans le vé-rin et les du-rites, $\OML/mdput/m/it
-/10 V[] \OT1/mdput/m/n/10 (+20) =
- []
-
-LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 198.
-LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 7.52002pt on input line 198.
-LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 198.
-[1
-
-{C:/Users/xpess/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-design size mismatch in local font md-utbo8t in virtual font mdputbo8t.vf ignor
-ed.
-design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
-ed. <./images/fig_01.png> <./images/fig_02.png (PNG copy)> <./images/fig_03.png
- (PNG copy)> <./images/fig_05.png (PNG copy)>]
-<images/fig_06.png, id=36, 344.2461pt x 118.5228pt>
-File: images/fig_06.png Graphic file (type png)
-<use images/fig_06.png>
-Package pdftex.def Info: images/fig_06.png  used on input line 217.
-(pdftex.def)             Requested size: 236.84843pt x 81.5475pt.
-<images/fig_08.png, id=37, 268.6035pt x 69.861pt>
-File: images/fig_08.png Graphic file (type png)
-<use images/fig_08.png>
-Package pdftex.def Info: images/fig_08.png  used on input line 255.
-(pdftex.def)             Requested size: 236.84843pt x 61.60364pt.
-<images/fig_09.png, id=38, 259.6902pt x 177.5433pt>
-File: images/fig_09.png Graphic file (type png)
-<use images/fig_09.png>
-Package pdftex.def Info: images/fig_09.png  used on input line 277.
-(pdftex.def)             Requested size: 236.84843pt x 161.92766pt.
-<png/logo_lycee.png, id=39, 329.23pt x 265.99374pt>
+(Font)              scaled to size 4.70001pt on input line 198.
+<png/logo_lycee.png, id=24, 329.23pt x 265.99374pt>
 File: png/logo_lycee.png Graphic file (type png)
 <use png/logo_lycee.png>
-Package pdftex.def Info: png/logo_lycee.png  used on input line 308.
+Package pdftex.def Info: png/logo_lycee.png  used on input line 202.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 308.
+(Font)              scaled to size 7.52002pt on input line 202.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <8> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 308.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 202.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./png/logo_lycee.png> <./images/ccp_04.png (PNG copy)> <./images/ccp_05.png
+ (PNG copy)>]
+<images/ccp_06.png, id=44, 281.1303pt x 136.3494pt>
+File: images/ccp_06.png Graphic file (type png)
+<use images/ccp_06.png>
+Package pdftex.def Info: images/ccp_06.png  used on input line 210.
+(pdftex.def)             Requested size: 232.17242pt x 112.60612pt.
+<images/ccp_07.png, id=45, 307.3884pt x 145.2627pt>
+File: images/ccp_07.png Graphic file (type png)
+<use images/ccp_07.png>
+Package pdftex.def Info: images/ccp_07.png  used on input line 215.
+(pdftex.def)             Requested size: 232.17242pt x 109.7203pt.
+<images/ccp_08.png, id=46, 309.5565pt x 151.0443pt>
+File: images/ccp_08.png Graphic file (type png)
+<use images/ccp_08.png>
+Package pdftex.def Info: images/ccp_08.png  used on input line 222.
+(pdftex.def)             Requested size: 232.17242pt x 113.28754pt.
+<images/ccp_09.png, id=47, 310.0383pt x 153.9351pt>
+File: images/ccp_09.png Graphic file (type png)
+<use images/ccp_09.png>
+Package pdftex.def Info: images/ccp_09.png  used on input line 227.
+(pdftex.def)             Requested size: 232.17242pt x 115.27486pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 238.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 238.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 240.
+<images/ccp_13.png, id=48, 342.3189pt x 188.6247pt>
+File: images/ccp_13.png Graphic file (type png)
+<use images/ccp_13.png>
+Package pdftex.def Info: images/ccp_13.png  used on input line 257.
+(pdftex.def)             Requested size: 483.69687pt x 266.53072pt.
+File: png/logo_lycee.png Graphic file (type png)
+<use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png  used on input line 258.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
+(Font)              scaled to size 11.28003pt on input line 258.
+[3 <./images/ccp_06.png (PNG copy)> <./images/ccp_07.png (PNG copy)> <./images/
+ccp_08.png (PNG copy)> <./images/ccp_09.png (PNG copy)>]
+File: png/logo_lycee.png Graphic file (type png)
+<use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png  used on input line 309.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2597,46 +2810,190 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./png/logo_lycee.png> <./images/fig_06.png (PNG copy)> <./images/fig_08.png
- (PNG copy)> <./images/fig_09.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
- (Colle_01_Clever.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 308.
+[4 <./images/ccp_13.png (PNG copy)>]
+<images/ccp_11.png, id=69, 246.6816pt x 48.4209pt>
+File: images/ccp_11.png Graphic file (type png)
+<use images/ccp_11.png>
+Package pdftex.def Info: images/ccp_11.png  used on input line 332.
+(pdftex.def)             Requested size: 386.95897pt x 75.96332pt.
+
+Overfull \hbox (10.27448pt too wide) in paragraph at lines 335--337
+[]\T1/mdput/m/n/10 (-20) avec $\OML/mdput/m/it/10 K[] \OT1/mdput/m/n/10 (-20) =
+ [] []$\T1/mdput/m/n/10 (-20) , $\OML/mdput/m/it/10 K[] \OT1/mdput/m/n/10 (-20)
+ = [] []$\T1/mdput/m/n/10 (-20) , $\OML/mdput/m/it/10 T[] \OT1/mdput/m/n/10 (-2
+0) = [] []$\T1/mdput/m/n/10 (-20) . Le couple ré-sis-tant $\OML/mdput/m/it/10 C
+[]$ \T1/mdput/m/n/10 (-20) est constant et vaut $\OML/mdput/m/it/10 C[] \OT1/md
+put/m/n/10 (-20) = [] []$\T1/mdput/m/n/10 (-20) .
+ []
+
+<images/ccp_14.png, id=70, 331.4784pt x 96.6009pt>
+File: images/ccp_14.png Graphic file (type png)
+<use images/ccp_14.png>
+Package pdftex.def Info: images/ccp_14.png  used on input line 341.
+(pdftex.def)             Requested size: 386.95897pt x 112.77199pt.
+File: png/logo_lycee.png Graphic file (type png)
+<use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png  used on input line 367.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./images/ccp_11.png> <./images/ccp_14.png (PNG copy)>]
+<images/ccp_12.png, id=86, 338.4645pt x 98.5281pt>
+File: images/ccp_12.png Graphic file (type png)
+<use images/ccp_12.png>
+Package pdftex.def Info: images/ccp_12.png  used on input line 371.
+(pdftex.def)             Requested size: 386.95897pt x 112.65244pt.
+<images/e3a_10.png, id=87, 68.1747pt x 138.2766pt>
+File: images/e3a_10.png Graphic file (type png)
+<use images/e3a_10.png>
+Package pdftex.def Info: images/e3a_10.png  used on input line 381.
+(pdftex.def)             Requested size: 101.57692pt x 206.03236pt.
+<images/e3a_11.png, id=88, 160.4394pt x 128.3997pt>
+File: images/e3a_11.png Graphic file (type png)
+<use images/e3a_11.png>
+Package pdftex.def Info: images/e3a_11.png  used on input line 399.
+(pdftex.def)             Requested size: 338.58632pt x 270.97176pt.
+File: png/logo_lycee.png Graphic file (type png)
+<use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png  used on input line 400.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./images/ccp_12.png (PNG copy)> <./images/e3a_10.png (PNG copy)>]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 410.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 417.
+<images/e3a_01.png, id=97, 238.0092pt x 48.4209pt>
+File: images/e3a_01.png Graphic file (type png)
+<use images/e3a_01.png>
+Package pdftex.def Info: images/e3a_01.png  used on input line 424.
+(pdftex.def)             Requested size: 483.69687pt x 98.40712pt.
+File: png/logo_lycee.png Graphic file (type png)
+<use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png  used on input line 448.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./images/e3a_11.png> <./images/e3a_01.png>]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 483.
+<images/e3a_06.png, id=112, 247.8861pt x 57.5751pt>
+File: images/e3a_06.png Graphic file (type png)
+<use images/e3a_06.png>
+Package pdftex.def Info: images/e3a_06.png  used on input line 489.
+(pdftex.def)             Requested size: 386.95897pt x 89.88004pt.
+<images/e3a_07.png, id=113, 247.8861pt x 117.0774pt>
+File: images/e3a_07.png Graphic file (type png)
+<use images/e3a_07.png>
+Package pdftex.def Info: images/e3a_07.png  used on input line 496.
+(pdftex.def)             Requested size: 386.95897pt x 182.76862pt.
+File: png/logo_lycee.png Graphic file (type png)
+<use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png  used on input line 497.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./images/e3a_06.png>]
+LaTeX Font Info:    Font shape `TS1/mdput/m/n' will be
+(Font)              scaled to size 8.46002pt on input line 501.
+<images/e3a_08.png, id=126, 211.5102pt x 169.3527pt>
+File: images/e3a_08.png Graphic file (type png)
+<use images/e3a_08.png>
+Package pdftex.def Info: images/e3a_08.png  used on input line 509.
+(pdftex.def)             Requested size: 386.95897pt x 309.8452pt.
+File: png/logo_lycee.png Graphic file (type png)
+<use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png  used on input line 525.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./images/e3a_07.png> <./images/e3a_08.png>]
+<images/e3a_09.png, id=136, 220.9053pt x 46.4937pt>
+File: images/e3a_09.png Graphic file (type png)
+<use images/e3a_09.png>
+Package pdftex.def Info: images/e3a_09.png  used on input line 554.
+(pdftex.def)             Requested size: 386.95897pt x 81.45314pt.
+File: png/logo_lycee.png Graphic file (type png)
+<use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png  used on input line 571.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./images/e3a_09.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 571.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 571.
+ (DS_02.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 571.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 571.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package logreq Info: Writing requests to 'Colle_01_Clever.run.xml'.
-\openout1 = `Colle_01_Clever.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'DS_02.run.xml'.
+\openout1 = `DS_02.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 571.
  ) 
 Here is how much of TeX's memory you used:
- 53823 strings out of 492972
- 1155184 string characters out of 3135883
- 1819505 words of memory out of 3000000
- 56695 multiletter control sequences out of 15000+200000
- 749063 words of font info for 275 fonts, out of 3000000 for 9000
+ 55301 strings out of 492972
+ 1179328 string characters out of 3135883
+ 1827317 words of memory out of 3000000
+ 57951 multiletter control sequences out of 15000+200000
+ 756884 words of font info for 356 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,17n,96p,1006b,1893s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
-KTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/mathdesign/mdput/md-utr7t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/math
-design/mdput/md-utr7v.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/m
-dput/md-utr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-
-utr8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utri7m.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia
-/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagdo8a.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
-Output written on Colle_01_Clever.pdf (2 pages, 590389 bytes).
+ 64i,17n,98p,996b,1893s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/mathdesign/mdput/md-utr7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/math
+design/mdput/md-utr7t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/m
+dput/md-utr7v.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-
+utr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utr8t.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utri7m.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/
+utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagdo8a.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
+Output written on DS_02.pdf (10 pages, 2516241 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 71797 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 76262 words of extra memory for PDF output out of 89155 (max. 10000000)
 
