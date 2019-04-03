@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.28)  1 APR 2019 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.28)  3 APR 2019 18:06
 entering extended mode
 **./Exercices_MCC.tex
 (Exercices_MCC.tex
@@ -2596,11 +2596,11 @@ Package logreq Info: Writing requests to 'Exercices_MCC.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 505.
  ) 
 Here is how much of TeX's memory you used:
- 44297 strings out of 492970
- 831363 string characters out of 3135854
+ 44309 strings out of 492970
+ 831495 string characters out of 3135854
  1388561 words of memory out of 3000000
  47270 multiletter control sequences out of 15000+200000
- 796213 words of font info for 349 fonts, out of 3000000 for 9000
+ 797165 words of font info for 358 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,17n,75p,1004b,1880s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
@@ -2617,7 +2617,7 @@ ts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagdo8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
-Output written on Exercices_MCC.pdf (6 pages, 263818 bytes).
+Output written on Exercices_MCC.pdf (6 pages, 262876 bytes).
 PDF statistics:
  252 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
