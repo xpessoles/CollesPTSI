@@ -35,9 +35,8 @@
 \def\xxchapitre{\hspace{.12cm}}%Modélisation multiphysique}
 
 
-\def\xxtitreexo{\noindent Automate d’exploration de l’hémostase \\ \hspace{.4cm} Chargement et déchargement
-des cargos porte-conteneurs }%Motorisation du moteur Haibike}
-\def\xxsourceexo{\hspace{.2cm} CCP MP 2015 -- Centrale Supélec 2013}
+\def\xxtitreexo{\noindent Automate d’exploration de l’hémostase \\  }%Motorisation du moteur Haibike}
+\def\xxsourceexo{\hspace{.2cm} CCP MP 2015}
 
 
 \def\xxposongletx{2}
@@ -46,7 +45,7 @@ des cargos porte-conteneurs }%Motorisation du moteur Haibike}
 %\def\xxonglet{Part. 1 -- Ch. 3}
 \def\xxonglet{\textsf{Cy. 1 à 3}}
 
-\def\xxactivite{DS 2}
+\def\xxactivite{Colle 2}
 \def\xxauteur{\textsl{Xavier Pessoles}}
 
 \def\xxcompetences{%
@@ -93,12 +92,12 @@ des cargos porte-conteneurs }%Motorisation du moteur Haibike}
 
 %\defimages2{images}
 
-%\begin{multicols}{2}
-\section{Automate d’exploration de l’hémostase}
-\subsection{Présentation du système}
+\begin{multicols}{2}
+
+\subsection*{Présentation du système}
 
 
-\begin{minipage}[c]{.6\linewidth}
+%\begin{minipage}[c]{.6\linewidth}
 La société Stago est un laboratoire pharmaceutique de
 l'industrie du Diagnostic In Vitro (DIV) entièrement
 dédiée à l'exploration de l'hémostase et de la thrombose.
@@ -107,43 +106,43 @@ d'interrompre le saignement pour éviter l'hémorragie.
 L’objet de cette étude, le STA Compact, est un
 automate de laboratoire destiné à l’analyse de
 l’hémostase.
-\end{minipage} \hfill
-\begin{minipage}[c]{.35\linewidth}
+%\end{minipage} \hfill
+%\begin{minipage}[c]{.35\linewidth}
 \begin{center}
-\includegraphics[width=\linewidth]{images/ccp_01}
+\includegraphics[width=.8\linewidth]{images/ccp_01}
 \end{center}
-\end{minipage} 
+%\end{minipage} 
 
-Les figures suivantes situent le STA Compact dans son environnement et précisent ses fonctions.
+%%Les figures suivantes situent le STA Compact dans son environnement et précisent ses fonctions.
+%%
+%%\begin{center}
+%%\includegraphics[width=.8\linewidth]{images/ccp_02}
+%%\end{center}
+%%
+%%\begin{center}
+%%\includegraphics[width=.8\linewidth]{images/ccp_03}
+%%\end{center}
 
-\begin{center}
-\includegraphics[width=.8\linewidth]{images/ccp_02}
-\end{center}
+%Le STA Compact permet de réaliser, entre autre, des tests de chronométrie afin de mesurer un
+%temps de coagulation.
+%
+%Le principe du test de chronométrie est le suivant :
+%\begin{itemize}
+%\item une dose de réactif est mélangée à une dose de plasma sanguin précédemment étuvée dans
+%une cuvette contenant une bille ;
+%\item l’ensemble est chauffé alors que la bille est mise en oscillation dans le mélange par un
+%champ magnétique ;
+%\item on mesure l’amplitude de l’oscillation qui diminue sensiblement lors d’une variation de
+%viscosité du mélange sang-réactif ;
+%\item le temps écoulé jusqu’à la diminution des oscillations donne le temps de coagulation.
+%\end{itemize}
 
-\begin{center}
-\includegraphics[width=.8\linewidth]{images/ccp_03}
-\end{center}
-
-Le STA Compact permet de réaliser, entre autre, des tests de chronométrie afin de mesurer un
-temps de coagulation.
-
-Le principe du test de chronométrie est le suivant :
-\begin{itemize}
-\item une dose de réactif est mélangée à une dose de plasma sanguin précédemment étuvée dans
-une cuvette contenant une bille ;
-\item l’ensemble est chauffé alors que la bille est mise en oscillation dans le mélange par un
-champ magnétique ;
-\item on mesure l’amplitude de l’oscillation qui diminue sensiblement lors d’une variation de
-viscosité du mélange sang-réactif ;
-\item le temps écoulé jusqu’à la diminution des oscillations donne le temps de coagulation.
-\end{itemize}
-
-\subsection{Analyse de l’exigence 3.3 « Mettre la bille en oscillation »}
+\subsection*{Analyse de l’exigence 3.3 « Mettre la bille en oscillation »}
 \begin{obj}
 Déterminer la pulsation optimale des bobines motrices.
 \end{obj}
 
-\subsubsection{Mise en situation}
+\subsubsection*{Mise en situation}
 Le principe de la chronométrie consiste à mesurer la variation de l’amplitude d’oscillation d’une
 bille placée dans la cuvette de mesure.
 
@@ -155,16 +154,16 @@ La bille, roulant sans glisser sur le fond cylindrique de la cuvette, est mise e
 champ magnétique variable induit par deux bobines motrices placées de part et d’autre de la tête de
 mesure.
 
-L’amplitude des oscillations est mesurée par deux autres bobines, l’une émettrice, l’autre réceptrice.
-Après amplification du signal mesuré, on obtient un signal quasi-sinusoïdal, reflet de l’oscillation
-de la bille. À viscosité constante, on obtient un balancement pendulaire constant de la bille. Quand
+%L’amplitude des oscillations est mesurée par deux autres bobines, l’une émettrice, l’autre réceptrice.
+%Après amplification du signal mesuré, on obtient un signal quasi-sinusoïdal, reflet de l’oscillation
+%de la bille. 
+À viscosité constante, on obtient un balancement pendulaire constant de la bille. Quand
 la viscosité augmente (phénomène de coagulation), l’amplitude d’oscillation de la bille varie.
-Pour chaque mesure, le champ magnétique est ajusté en fonction de la viscosité initiale du milieu et
-du type de test.
+%Pour chaque mesure, le champ magnétique est ajusté en fonction de la viscosité initiale du milieu et
+%du type de test.
 
 
 
-\noindent\begin{minipage}[c]{.7\linewidth}
 
 La bille  est de masse $m$, de centre de masse $G$, de rayon $r$ et 
 roule sans glisser sur un rail circulaire de rayon $R$ dans
@@ -179,22 +178,21 @@ L'équation du mouvement de la bille est donnée par :
  $\dfrac{7}{5} m\left(R-r \right)\ddot{\theta} + f_v \left(R-r \right)\dot{\theta} + mg \sin \theta = F(t) \cos \theta$.% avec $\dot{\theta}(0)=0$ et ${\theta}(0)=0$.
 
 
-\end{minipage} \hfill
-\begin{minipage}[c]{.25\linewidth}
+
 \begin{center}
-\includegraphics[width=\linewidth]{images/ccp_05}
+\includegraphics[width=.6\linewidth]{images/ccp_05}
 \end{center}
-\end{minipage} 
 
 
-\subsubsection{Modélisation du mouvement de la bille}
+
+\subsubsection*{Modélisation du mouvement de la bille}
 
 \subparagraph{}\textit{$\theta$ étant petit, linéariser l’équation du mouvement puis en déduire la fonction de transfert $H(p)=\dfrac{\theta(p)}{F(p)}$. Mettre $H(p)$) sous la forme canonique d’un système du second ordre dont on donnera les expressions du gain statique $K_S$, de la pulsation propre non amortie $\omega_0$ et du
 coefficient d’amortissement $\xi$ en fonction de $f_v$, $R$, $r$, $m$ et $g$.}
 
 \subparagraph{}\textit{On prendra les valeurs numériques suivantes pour cette question :
 $\omega_0 = \SI{21,8}{rad.s^{-1}}$; $K_S = \SI{25}{N^{-1}}$; $\xi=4f_v$.
-Tracer, sur le document réponse****, le diagramme asymptotique de Bode en gain, ainsi que l’allure
+Tracer, le diagramme asymptotique de Bode en gain, ainsi que l’allure
 du diagramme réel pour les valeurs suivantes du coefficient de frottement visqueux $f_v$: $f_v=0,005$, $f_v=0,05$, $f_v=0,02$.}
 
 \subparagraph{}\textit{La sollicitation des bobines est sinusoïdale : $F(t)=F_0 \sin \left( \omega_{\text{bob}}t\right)$. Préciser, en
@@ -235,13 +233,13 @@ position de la bille $\theta$ (en degrés) en fonction du temps $t$ (en secondes
 
 \subparagraph{}\textit{À partir de ces analyses, en justifiant votre réponse, donner l’allure de la courbe $\theta$ en fonction de $t$ obtenue à la pulsation $\omega_0$ lorsque la viscosité du sang varie au fur et à mesure de la coagulation (si l’on suppose que $f_v$ augmente avec la coagulation).}
 
-\subsection{Analyse de l’exigence 2.3 << Prélever les produits par déplacement suivant  $\vec{z}$ de la tête de pipetage >>}% de la tête de pipetage >>}% << Prélever les produits par le
+\subsection*{Analyse de l’exigence 2.3 << Prélever les produits par déplacement suivant  $\vec{z}$ de la tête de pipetage >>}% de la tête de pipetage >>}% << Prélever les produits par le
 %déplacement suivant $\vect{z}$ de la tête de pipetage >>}
 \begin{obj}
 Régler la commande du moteur afin de respecter le cahier des charges.
 \end{obj}
 
-\subsubsection{Présentation}
+\subsubsection*{Présentation}
 Les aiguilles de prélèvement des doses de plasma et de réactifs sont reliées à la tête de pipetage.
 Elles peuvent avoir un mouvement de translation verticale (selon la direction $\vect{z}$) par rapport à cette
 tête. Deux types de réactifs sont utilisés. La tête de pipetage possède donc trois aiguilles : une pour
@@ -257,7 +255,7 @@ réactifs) se font à l’aide d’une même seringue de pipetage motorisée (no
 \includegraphics[width=\linewidth]{images/ccp_13}
 \end{center}
 
-\subsubsection{Modélisation de la motorisation}
+\subsubsection*{Modélisation de la motorisation}
 
 Les déplacements verticaux des aiguilles de la tête de pipetage (axe $\vect{z}$) sont assurés par un ensemble motoréducteur à courant continu et système pignon-crémaillère.
 On note :
@@ -325,11 +323,11 @@ Afin de déterminer les caractéristiques du moteur, on applique à celui-ci un 
 \subparagraph{}\textit{Déterminer la valeur numérique du couple résistant ramené à l’arbre moteur $c_{r0}$ et de l’inertie équivalente ramenée à l’arbre moteur $J_{\text{eq}}$.}
 
 
-\subsubsection{Réglage de l’asservissement}
+\subsubsection*{Réglage de l’asservissement}
 Les résultats précédents ont permis de modéliser l’asservissement de position par le schéma-blocs ci-dessous:
 
 \begin{center}
-\includegraphics[width=.8\linewidth]{images/ccp_11}
+\includegraphics[width=\linewidth]{images/ccp_11}
 \end{center}
 
 avec $K_2 = \SI{2,78e-2}{N^{-1}}$, $K_1  = \SI{856}{s^{-1}}$, $T_m=\SI{3e-2}{s}$. Le couple résistant $C_r$ est constant et vaut $C_{r0} = \SI{2,7e-3}{Nm}$.
@@ -338,7 +336,7 @@ On suppose le correcteur proportionnel : $H_{\text{cor}}(p)=K_P$.
 On donne le diagramme partiel des exigences.
 
 \begin{center}
-\includegraphics[width=.8\linewidth]{images/ccp_14}
+\includegraphics[width=\linewidth]{images/ccp_14}
 \end{center}
 
 
@@ -362,211 +360,16 @@ donnés sur le document réponse.
 On souhaite une marge de phase d’au moins 60\degres.
 
 
-\subparagraph{}\textit{Justifier le choix de ce correcteur. Déterminer le coefficient $K_p$ pour satisfaire au cahier des charges. Justifier vos calculs par les tracés nécessaires sur le document réponse.****}
+\subparagraph{}\textit{Justifier le choix de ce correcteur. Déterminer le coefficient $K_p$ pour satisfaire au cahier des charges. Justifier vos calculs par les tracés nécessaires sur le document réponse.}%****}
 
 \subparagraph{}\textit{La figure suivante donne la réponse à un échelon de position de \SI{50}{mm} avec le correcteur précédemment réglé. Vérifier qu’elle est conforme au cahier des charges. Justifier clairement vos réponses en donnant les valeurs numériques pour chaque critère.}
 
 
 \begin{center}
-\includegraphics[width=.8\linewidth]{images/ccp_12}
+\includegraphics[width=\linewidth]{images/ccp_12}
 \end{center}
 
-
-\section{Mélangeur interne à rotors engrenant}
-\subsection{Mise en situation}
-
-
-\begin{minipage}[c]{.3\linewidth}
-\begin{center}
-\includegraphics[width=.7\linewidth]{images/e3a_10}
-\end{center}
-\end{minipage}  \hfill
-\begin{minipage}[c]{.65\linewidth}
-Un mélangeur interne à rotors engrenants est une machine utilisée dans l'industrie pour effectuer le mélange du caoutchouc et d'additifs divers. Il est, par exemple, utilisé dans la fabrication des pneumatiques.
-Nous nous intéresserons dans cette étude au modèle K5 de la société Farrel.
-
-Le mélangeur est principalement constitué de :
-\begin{itemize}
-\item une porte de chargement du caoutchouc et des différents additifs (a);
-\item un fouloir permettant de pousser les différents ingrédients vers la chambre de mélangeage (b);
-\item deux rotors à axes parallèles tournant en sens inverses (c) et (c');
-\item une chambre de mélangeage (d);
-\item une porte de déchargement (e).
-\end{itemize}
-\end{minipage}
-
-\begin{center}
-\includegraphics[width=.7\linewidth]{images/e3a_11}
-\end{center}
-
-Le modèle K5 permet de mélanger 100 kg de matière dans une chambre ayant une contenance de 143 litres. Le mélangeur a une masse totale de 16 tonnes. La masse du moteur électrique entraînant les rotors est de 2,5 tonnes.
-
-Les caractéristiques du mélange obtenu dépendent, en plus des caractéristiques des différents constituants, des conditions dans lesquelles s'effectue le mélange. Il est donc important de maîtriser, au cours des différentes phases du mélange, la vitesse de rotation des rotors et l'effort exercé par le fouloir tout en surveillant la température dans la chambre qui ne doit pas dépasser une valeur limite (pour que le mélange ne vulcanise pas dans le mélangeur).
- 
-
-
-
-
-\begin{obj}
-Vérifier le dimensionnement de l'actionneur. Choisir et régler un correcteur pour optimiser les performances de l'asservissement de vitesse participant à l'exigence << Effectuer le mélange dans les conditions optimales~>>.
-\end{obj}
-
-
-
-\subsection{Construction du schéma-blocs}
-\begin{obj}
-Mise en place de la structure globale de l’asservissement de vitesse.
-\end{obj}
-
-L'asservissement en vitesse des rotors est représenté par le schéma suivant :
-
-\begin{center}
-\includegraphics[width=\linewidth]{images/e3a_01}
-\end{center}
-
-$\omega_c$ : consigne de vitesse ;  $\omega_m$: vitesse moteur ; $\omega_1$: vitesse rotor 1 ; $\omega_2$ : vitesse rotor 2.
-
-\begin{rem}
-Ces quatre vitesses sont des vitesses angulaires par rapport au bâti.
-\end{rem}
-
-On donne les équations suivantes caractérisant le moteur :
-\begin{multicols}{2}
-\begin{enumerate}
-\item $C_m(t)+C_r(t)=J\dfrac{\dd \omega_m(t)}{\dd t}$;
-\item $u(t)=Ri(t)+L\dfrac{\dd i(t)}{\dd t}+e(t)$;
-\item $C_m(t)=k_i i(t)$;
-\item $e(t)=k_e\omega_m(t)$.
-\end{enumerate}
-
-On donne les équations suivantes caractérisant le moteur :
-
-\begin{itemize}
-\item $R$ : résistance de l'induit;
-\item $L$ : inductance de l'induit;
-\item $u(t)$ : tension d'alimentation du moteur;
-\item $i(t)$ : courant moteur;
-\item $e(t)$ : force contre électromotrice;
-\item $C_m(t)$ : couple disponible sur l'arbre moteur;
-\item $C_r(t)$ : couple résistant ramené sur l'arbre moteur;
-\item $\omega_m(t)$ : vitesse de rotation de l'arbre moteur;
-\item $J$ : moment d'inertie ramené sur l'arbre moteur;
-\item $k_e$ : constante de force contre électromotrice;
-\item $k_i$ : constante de couple.
-\end{itemize}
 \end{multicols}
-
-On notera $C_m(p)$, $C_r(p)$, $\Omega_m(p)$, $U(p)$, $I(p)$ et $E(p)$ les transformées de Laplace des différentes grandeurs physiques définies ci-dessus.
-
-\subparagraph{}
-\textit{En considérant que toutes les conditions initiales sont nulles, donner les quatre équations précédentes dans le domaine de Laplace.}
-
-\subparagraph{}
-\textit{Remplir les fonctions de transfert des cases d, e, f et g ainsi que les trois grandeurs physiques manquantes (zones grisées) sur le schéma-bloc fourni sur le cahier réponses.}
-
-Le schéma cinématique et les caractéristiques du réducteur sont fournis en annexe B. ****
-
-\subparagraph{}
-\textit{Donner la valeur algébrique des rapports de réduction $r_1=\dfrac{\omega_1}{\omega_m}$ et $r_2=\dfrac{\omega_2}{\omega_m}$ en fonction des nombres de dents $Z_i$. Faire les applications numériques.}
-
-\subparagraph{}
-\textit{Quelle doit être la fonction de transfert $K_a$ de l'adaptateur de consigne (case a) si l'on veut que l’écart $\varepsilon$ soit nul quand la vitesse $\omega_1$ est égale à la vitesse de consigne $\omega_c$ ? Remplir la case a du document réponse page 5****.}
-
-
-Dans un premier temps nous considérerons que le correcteur est proportionnel de fonction de transfert $kc$.
-
-\subparagraph{}
-\textit{Déterminer l'expression littérale de la fonction de transfert  $H(p)=\dfrac{K}{1+\dfrac{2\xi}{\omega_0}p+\dfrac{p^2}{\omega_0^2}}$ de suivi de consigne ($C_r(p) = 0$) en fonction de $A$, $R$, $L$, $J$, $k_i$, $k_e$, $k_g$ et $k_c$. La  lettre sous la forme d'un système canonique d'ordre 2 et identifier les constantes caractéristiques.}
-
-\subsection{Étude de l'asservissement de vitesse}
-
-\begin{obj}
-Choisir et régler un correcteur pour répondre au cahier des charges.
-\end{obj}
-
-Pour cette partie, on utilisera le schéma-blocs à retour unitaire suivant :
-\begin{center}
-\includegraphics[width=.8\linewidth]{images/e3a_06.png}
-\end{center}
-
-On a $H_1(p)=\dfrac{3000}{1+1,6\, 10^{-2}p}$, $H_2(p)=\dfrac{5,7\, 10^{-5}\left(1+ 1,6\, 10^{-2}p\right)}{1+2,9\, 10^{-2}p+4,6\, 10^{-4}p^2}$ et $A=5$ (sans unité). Les valeurs numériques sont dans les unités du système international.
-
-Le cahier des charges impose les conditions suivantes. 
-\begin{center}
-\includegraphics[width=.8\linewidth]{images/e3a_07.png}
-\end{center}
-
-\begin{rem}
-\begin{itemize}
-\item La perturbation en échelon de couple modélise une variation brusque du couple résistant au niveau des rotors due à la mise en action du fouloir.
-\item La perturbation en rampe de couple modélise une variation lente du couple résistant liée à la variation de température du mélange.
-\end{itemize}
-\end{rem}
-
-Le diagramme de Bode de la fonction de transfert en boucle ouverte du système non corrigé ($C(p) = 1$) est donné ci-dessous.
-
-\begin{center}
-\includegraphics[width=.8\linewidth]{images/e3a_08.png}
-\end{center}
-
-
-\subparagraph{}
-\textit{Le système modélisé ainsi est-il stable ? Justifier votre réponse.}
-
-\subparagraph{}
-\textit{Si l'on considère dans un premier temps que le correcteur est proportionnel de fonction de transfert $C(p) = K$, donner la valeur que prend l'écart (en fonction de $a$, $b$, $c$ et $K$ s’il est constant) dans chacun des trois cas proposés (on ne demande pas de développer de calculs sur la copie). Le cahier des charges est-il respecté ?}
-
-\subparagraph{}
-\textit{Parmi les quatre correcteurs proposés, cocher celui (ou ceux) qui peut (peuvent) permettre de répondre aux trois critères de précision du cahier des charges.}
-
-\subparagraph{}
-\textit{Pour la suite nous utiliserons un correcteur de fonction de transfert  $C(p)=K\dfrac{1+Tp}{Tp}$.}
-
-\subparagraph{}
-\textit{Donner le nom de ce correcteur et tracer le diagramme de Bode (asymptotique et allure du diagramme réel) du correcteur seul. Indiquer les pentes et points caractéristiques en fonction de $K$ et $T$.}
-
-On choisit la valeur de $T$ de telle façon que la valeur de la pulsation conduisant à un déphasage de $-45\degres$ pour le correcteur seul soit dix fois plus petite que la pulsation pour laquelle la FTBO non corrigée présente un déphasage de $-90\degres$.
-\subparagraph{}
-\textit{Déterminer la valeur de $T$ correspondante.}
-
-\subparagraph{}
-\textit{Tracer, sur le cahier réponses, le diagramme asymptotique de Bode de la FTBO corrigée avec $K = 1$ et votre valeur de $T$. Indiquer les pentes et points caractéristiques.}
-
-On donne, sur le cahier réponses, le diagramme de Black de la FTBO corrigée avec T déterminé à la question précédente et $K = 1$.
-
-
-\subparagraph{}
-\textit{Déterminer la plus grande valeur de $K$ (notée $K_{\text{stab}}$) permettant de satisfaire au critère de stabilité. Vous porterez sur la courbe les tracés que vous jugerez utiles.}
-
-\subparagraph{}
-\textit{On donne, sur le cahier réponses, les courbes de la réponse du système à une entrée en échelon unitaire ($\omega_c(t) = u(t)$) pour $K$ prenant les valeurs 1 ; 2 ; 3 ; 3,5 et 4.}
-
-
-\subparagraph{}
-\textit{La valeur de $K_{\text{stab}}$ trouvée à la question précédente est-elle compatible avec les critères de précision en suivi de consigne, d'amortissement et de rapidité ? Justifiez votre réponse.}
-
-\subparagraph{}
-\textit{Choisir pour $K$ une valeur permettant de respecter à la fois les critères de stabilité, amortissement, rapidité et précision en suivi de consigne. Vous justifierez vos réponses et porterez sur la courbe les tracés que vous jugerez utiles.}
-
- 
-Le correcteur ayant été dimensionné, le schéma-bloc peut se mettre sous la forme suivante :
-\begin{center}
-\includegraphics[width=.8\linewidth]{images/e3a_09.png}
-\end{center}
-
-On a $F(p)=\dfrac{2,25\, 10^{5}\left(1+ 10,2 p\right)}{p\left(1+1,6\, 10^{-2}p\right)}$ et $H_2(p)=\dfrac{5,7\, 10^{-5}\left(1+ 1,6\, 10^{-2}p\right)}{1+2,9\, 10^{-2}p+4,6\, 10^{-4}p^2}$. Les valeurs numériques sont dans les unités du système international.
-
-
-Nous nous intéressons maintenant à la précision en régulation du système modélisé ainsi. L'étude sera donc faite pour une consigne nulle $\omega_c(t) = 0$.
-
-\subparagraph{}
-\textit{Déterminer l'expression de $\varepsilon(p)$ en fonction de $C_r(p)$, $F(p)$ et $H_2(p)$.}
-
-\subparagraph{}
-\textit{Que vaut $\varepsilon_1 = \lim\limits_{t \to + \infty} \varepsilon(t)$ pour une perturbation en échelon $C_r(t)=bu(t)$ ? Justifier votre réponse et conclure quant au respect du cahier des charges.}
-
-\subparagraph{}
-\textit{Que vaut $\varepsilon_2 = \lim\limits_{t \to + \infty} \varepsilon(t)$ pour une perturbation en rampe $C_r(t)=c t u(t)$ ? Le cahier des charges est-il respecté (justifier par l'application numérique).}
 
 \end{document}
 

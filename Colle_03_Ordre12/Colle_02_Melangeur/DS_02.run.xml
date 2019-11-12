@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Cy_03_01_TD_P_01_IGS730_PDF.bcf</file>
+      <file>DS_02.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>Cy_03_01_TD_P_01_IGS730_PDF.bbl</file>
+      <file>DS_02.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -57,7 +57,6 @@
       <file>alphabetic.bbx</file>
       <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
-      <file>english.lbx</file>
       <file>french.lbx</file>
     </requires>
   </internal>
@@ -65,19 +64,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>Cy_03_01_TD_P_01_IGS730_PDF</infile>
+      <infile>DS_02</infile>
     </cmdline>
     <input>
-      <file>Cy_03_01_TD_P_01_IGS730_PDF.bcf</file>
+      <file>DS_02.bcf</file>
     </input>
     <output>
-      <file>Cy_03_01_TD_P_01_IGS730_PDF.bbl</file>
+      <file>DS_02.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>Cy_03_01_TD_P_01_IGS730_PDF.bbl</file>
+      <file>DS_02.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Cy_03_01_TD_P_01_IGS730_PDF.bcf</file>
+      <file>DS_02.bcf</file>
     </requires>
     <requires type="editable">
       <file>bibliography.bib</file>
