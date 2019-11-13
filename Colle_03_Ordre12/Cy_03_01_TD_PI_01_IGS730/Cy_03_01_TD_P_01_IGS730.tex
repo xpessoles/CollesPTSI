@@ -28,7 +28,7 @@
 \def\xxsourceexo{\hspace{.2cm} \footnotesize{Concours CCINP -- MP 2018}}
 
 \def\xxfigures{
-%\includegraphics[width=.75\textwidth]{fig_00}
+\includegraphics[width=.6\linewidth]{images/ccp_00}
 }%figues de la page de garde
 
 
@@ -58,20 +58,21 @@
 
 
 %\section{Système mobile d’imagerie interventionnelle Discovery IGS 730}
-\subsection**{Présentation du système}
+\subsection*{Présentation du système}
 Développé dans le cadre d’un projet ambitieux associant des industriels (GE Healthcare, BA Systèmes
 et C\&K), deux laboratoires de recherche (CEA-LIST et IRCCYN) et un centre de recherche
-préclinique (laboratoire CR2i INRA AP-HP), le Discovery IGS 730 (figure 1) est le premier système
+préclinique (laboratoire CR2i INRA AP-HP), le Discovery IGS 730 %(figure 1) 
+est le premier système
 mobile d’imagerie interventionnelle. Embarquant un ensemble de logiciels de traitement d’images
 pour les applications vasculaires, l’oncologie et la cardiologie %(figure 2) 
 et permettant un accès complet
 au patient, il guide les gestes de l’équipe médicale tout au long de l’intervention chirurgicale.
-
-\begin{center}
-\includegraphics[width=.8\linewidth]{images/ccp_01}
-\captionof{figure}{Système d’imagerie robotisé Discovery IGS 730 en situation de travail (photo de gauche)
-et en mode parking (photo de droite)}
-\end{center}
+%
+%\begin{center}
+%\includegraphics[width=.8\linewidth]{images/ccp_01}
+%\captionof{figure}{Système d’imagerie robotisé Discovery IGS 730 en situation de travail (photo de gauche)
+%et en mode parking (photo de droite)}
+%\end{center}
 
 %\begin{center}
 %\includegraphics[width=.8\linewidth]{images/ccp_02}
@@ -136,7 +137,12 @@ l’AGV »}
 
 \begin{obj}
 Vérifier que l’exigence d’asservissement en vitesse du mouvement de translation de la base motorisée
-AGV (Id. 1.1.3) et ses sous-exigences sont respectées.
+AGV (Id. 1.1.3) et ses sous-exigences sont respectées :
+\begin{itemize}
+\item 1.1.3.1.1 : l'AGV doit atteindre \SI{0,3}{m.s^{-1}} le plus rapidement possible sans dépasser une accélération de $\SI{0,8}{m.s^{-2}}$;
+\item 1.1.3.2.1 : l'erreur statique doit être nulle;
+\item 1.1.3.3.1 : marge de phase de 45\degres minimum.
+\end{itemize}
 \end{obj}
 Les déplacements de la base motorisée AGV sont contrôlés de la manière suivante : au niveau de
 chacun des 2 moteurs, des boucles de vitesse et de position assurent l’asservissement en vitesse et
@@ -354,7 +360,7 @@ La figure du document réponse présente sur un même graphe les réponses à un
 
 \subparagraph{}
 \textit{Choisir le gain $K_p$, parmi les trois valeurs proposées, satisfaisant l’exigence de stabilité et de
-rapidité (notamment l’accélération qui ne doit pas dépasser \SI{0,8}{m.s^2}). Appuyez votre réponse
+rapidité (notamment l’accélération qui ne doit pas dépasser \SI{0,8}{m.s^{-2}}). Appuyez votre réponse
 par des tracés sur le document réponse.}
 \ifprof
 \begin{corrige}

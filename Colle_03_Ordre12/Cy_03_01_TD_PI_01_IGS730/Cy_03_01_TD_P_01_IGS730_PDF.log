@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.18)  12 NOV 2019 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.18)  13 NOV 2019 08:58
 entering extended mode
 **./Cy_03_01_TD_P_01_IGS730_PDF.tex
 (Cy_03_01_TD_P_01_IGS730_PDF.tex
@@ -2237,6 +2237,11 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
 LaTeX Font Warning: Font shape `T1/pag/b/fsc' undefined
 (Font)              using `T1/pag/b/n' instead on input line 147.
 
+<images/ccp_00.png, id=6, 152.7306pt x 103.1052pt>
+File: images/ccp_00.png Graphic file (type png)
+<use images/ccp_00.png>
+Package pdftex.def Info: images/ccp_00.png  used on input line 150.
+(pdftex.def)             Requested size: 85.35913pt x 57.62523pt.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
 (Font)              scaled to size 19.49565pt on input line 154.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
@@ -2364,28 +2369,13 @@ Package mdframed Info: mdframed inside a box
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 228.
 )
-<images/ccp_01.png, id=6, 341.1144pt x 103.1052pt>
-File: images/ccp_01.png Graphic file (type png)
-<use images/ccp_01.png>
-Package pdftex.def Info: images/ccp_01.png  used on input line 71.
-(pdftex.def)             Requested size: 189.47946pt x 57.27124pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 73.
-See the caption package documentation for explanation.
-
-LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 9.40002pt on input line 73.
-LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 8.46002pt on input line 73.
 LaTeX Font Info:    Try loading font information for TS1+mdput on input line 12
-2.
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\ts1mdput.fd"
+3.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\ts1mdput.fd"
 File: ts1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdput.
 )
 LaTeX Font Info:    Font shape `TS1/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 122.
+(Font)              scaled to size 9.40002pt on input line 123.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `mdput' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2393,32 +2383,36 @@ Package microtype Info: Loading generic protrusion settings for font family
 <images/ccp_06.png, id=8, 244.9953pt x 140.4447pt>
 File: images/ccp_06.png Graphic file (type png)
 <use images/ccp_06.png>
-Package pdftex.def Info: images/ccp_06.png  used on input line 130.
+Package pdftex.def Info: images/ccp_06.png  used on input line 131.
 (pdftex.def)             Requested size: 189.47946pt x 108.62277pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 131.
+(caption)                particular \caption on input line 132.
 See the caption package documentation for explanation.
 
+LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
+(Font)              scaled to size 9.40002pt on input line 132.
+LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
+(Font)              scaled to size 8.46002pt on input line 132.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 137.
+(mdframed)              on input line 138.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 6.58002pt on input line 142.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 142.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 9.40002pt on input line 148.
-LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 164.
-LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 164.
+(Font)              scaled to size 9.40002pt on input line 154.
 
 Package hyperref Warning: bookmark level for unknown exo defaults to 0.
 
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 235.
+(Font)              scaled to size 7.52002pt on input line 241.
 LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 7.52002pt on input line 235.
+(Font)              scaled to size 7.52002pt on input line 241.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 235.
+(Font)              scaled to size 7.52002pt on input line 241.
 [1
 
 {C:/Users/xpess/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
@@ -2427,42 +2421,47 @@ ed.
 design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
 ed.
 design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
-ed. <./images/ccp_01.png (PNG copy)> <./images/ccp_06.png (PNG copy)>]
-<images/ccp_08.png, id=37, 321.6015pt x 72.5109pt>
+ed. <./images/ccp_00.png (PNG copy)> <./images/ccp_06.png (PNG copy)>]
+<images/ccp_08.png, id=38, 321.6015pt x 72.5109pt>
 File: images/ccp_08.png Graphic file (type png)
 <use images/ccp_08.png>
-Package pdftex.def Info: images/ccp_08.png  used on input line 238.
+Package pdftex.def Info: images/ccp_08.png  used on input line 244.
 (pdftex.def)             Requested size: 236.84843pt x 53.40273pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 239.
+(caption)                particular \caption on input line 245.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
 []|\T1/mdput/m/n/10 (+20) Traitement nu-mé-
  []
 
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 263.
+(Font)              scaled to size 6.58002pt on input line 269.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 263.
-<images/ccp_09.png, id=38, 213.9192pt x 122.6181pt>
+(Font)              scaled to size 4.70001pt on input line 269.
+<images/ccp_09.png, id=39, 213.9192pt x 122.6181pt>
 File: images/ccp_09.png Graphic file (type png)
 <use images/ccp_09.png>
-Package pdftex.def Info: images/ccp_09.png  used on input line 380.
+Package pdftex.def Info: images/ccp_09.png  used on input line 386.
 (pdftex.def)             Requested size: 236.84843pt x 135.76715pt.
-<../../style/png/logo_lycee.png, id=40, 329.23pt x 265.99374pt>
+<images/ccp_10.png, id=41, 198.7425pt x 128.3997pt>
+File: images/ccp_10.png Graphic file (type png)
+<use images/ccp_10.png>
+Package pdftex.def Info: images/ccp_10.png  used on input line 391.
+(pdftex.def)             Requested size: 236.84843pt x 153.02284pt.
+<../../style/png/logo_lycee.png, id=42, 329.23pt x 265.99374pt>
 File: ../../style/png/logo_lycee.png Graphic file (type png)
 <use ../../style/png/logo_lycee.png>
-Package pdftex.def Info: ../../style/png/logo_lycee.png  used on input line 381
+Package pdftex.def Info: ../../style/png/logo_lycee.png  used on input line 392
 .
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 381.
+(Font)              scaled to size 7.52002pt on input line 392.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <8> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 381.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 392.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 17.13193pt.
@@ -2470,15 +2469,10 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2 <../../style/png/logo_lycee.png> <./images/ccp_08.png (PNG copy)>]
-<images/ccp_10.png, id=64, 198.7425pt x 128.3997pt>
-File: images/ccp_10.png Graphic file (type png)
-<use images/ccp_10.png>
-Package pdftex.def Info: images/ccp_10.png  used on input line 385.
-(pdftex.def)             Requested size: 236.84843pt x 153.02284pt.
-<images/ccp_11.png, id=65, 163.812pt x 148.1535pt>
+<images/ccp_11.png, id=64, 163.812pt x 148.1535pt>
 File: images/ccp_11.png Graphic file (type png)
 <use images/ccp_11.png>
-Package pdftex.def Info: images/ccp_11.png  used on input line 390.
+Package pdftex.def Info: images/ccp_11.png  used on input line 396.
 (pdftex.def)             Requested size: 236.84843pt x 214.22704pt.
 )
 File: ../../style/png/logo_lycee.png Graphic file (type png)
@@ -2499,6 +2493,9 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 46.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'Cy_03_01_TD_P_01_IGS730_PDF.run.xml'.
 
 \openout1 = `Cy_03_01_TD_P_01_IGS730_PDF.run.xml'.
@@ -2506,11 +2503,11 @@ Package logreq Info: Writing requests to 'Cy_03_01_TD_P_01_IGS730_PDF.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 56679 strings out of 492902
- 1244446 string characters out of 3133550
+ 56672 strings out of 492902
+ 1244376 string characters out of 3133550
  1954610 words of memory out of 3000000
  59358 multiletter control sequences out of 15000+200000
- 801334 words of font info for 421 fonts, out of 3000000 for 9000
+ 801152 words of font info for 415 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,96p,5165b,1992s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
@@ -2528,9 +2525,9 @@ utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a
 am Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagdo8a.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/urw/zapfding/uzdr.pfb>
-Output written on Cy_03_01_TD_P_01_IGS730_PDF.pdf (3 pages, 1273876 bytes).
+Output written on Cy_03_01_TD_P_01_IGS730_PDF.pdf (3 pages, 1056995 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
  98968 words of extra memory for PDF output out of 106986 (max. 10000000)
 
