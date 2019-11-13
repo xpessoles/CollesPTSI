@@ -93,7 +93,7 @@ L'objectif est que le mouvement de l'habitacle soit contrôlé :
 
 L'orientation de l'habitacle est contrôlée par un asservissement de la position angulaire. L'architecture de cet asservissement est représentée par le schéma-blocs de le figure suivante.
 
-On modélise le comportement du servo-distributeur par un gain pur noté $K_s$ et le capteur par $H_c(p)=C$ avec $C=\SI{1}{V.rad^{-1}}$.  L'adaptateur mécanique a un comportement linéaire sur l'intervalle d'utilisation. On a donc $H_{\text{am}}(p)=R$ ($R=\SI{7}{rad.m^{-1}}$). Enfin, on considère que $H_r(p)=1$. 
+On modélise le comportement du servo-distributeur $H_{sd}$ par un gain pur noté $K_s$ et le capteur par $H_c(p)=C$ avec $C=\SI{1}{V.rad^{-1}}$.  L'adaptateur mécanique a un comportement linéaire sur l'intervalle d'utilisation. On a donc $H_{\text{am}}(p)=R$ ($R=\SI{7}{rad.m^{-1}}$). Enfin, on considère que $H_r(p)=1$. 
 
 \begin{center}
 \includegraphics[width=\linewidth]{images/fig_05}
@@ -108,7 +108,7 @@ On modélise le comportement du servo-distributeur par un gain pur noté $K_s$ e
 \end{itemize}
 % 
 
-\subparagraph{}\textit{Donner l'expression de la fonction de transfert du vérin $H_{V1}(p)$ (telle que $\lambda(p) = H_{V1}(p) Q(p)$) et compléter le schéma-bloc associé à la modélisation actuelle du système.}
+\subparagraph{}\textit{Donner l'expression de la fonction de transfert du vérin $H_{V1}(p)$ (telle que $\lambda(p) = H_{V1}(p) Q(p)$) et réaliser le schéma-blocs associé à la modélisation actuelle du système.}
 \ifprof
 \begin{corrige} ~\\
 
@@ -120,8 +120,7 @@ On modélise le comportement du servo-distributeur par un gain pur noté $K_s$ e
 \else
 \fi
 
-\subparagraph{}\textit{Déterminer la fonction de transfert en boucle fermée $\text{FTBF}_1$ (telle que $\alpha(p) = \text{FTBF}_1(p) \alpha_c(p)$) du système bouclé. Mettre  $\text{FTBF}_1(p)$ sous la forme 
-$\dfrac{K_1}{1+\tau_1 p}$ en précisant les expressions de $K_1$ et de $\tau_1$.} 
+\subparagraph{}\textit{Proposer une expression de $H_{ae}(p)$ puis déterminer la fonction de transfert en boucle fermée $\text{FTBF}_1$ (telle que $\alpha(p) = \text{FTBF}_1(p) \alpha_c(p)$) du système bouclé. Mettre  $\text{FTBF}_1(p)$ sous la forme $\dfrac{K_1}{1+\tau_1 p}$ en précisant les expressions de $K_1$ et de $\tau_1$.} 
  \ifprof
 \begin{corrige} ~\\
 
@@ -207,10 +206,10 @@ Par ailleurs, $F_v(t)+k_g \lambda(t)=m_{\text{eq}}\ddot{\lambda}(t)$ avec $m_{\t
 \end{corrige}
 \else
 \fi
-%\begin{center}
-%\includegraphics[width=\linewidth]{images/fig_06}
-%%\textit{}
-%\end{center}
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_06}
+%\textit{}
+\end{center}
 
 
 \subsection*{Analyse du comportement global}
@@ -245,10 +244,10 @@ $q(t)=S\dot{\lambda}(t)+\dfrac{V_0}{B} \dot{p}_r(t)-\delta p_r(t)$ où $\delta$ 
 \end{corrige}
 \else
 \fi
-%\begin{center}
-%\includegraphics[width=\linewidth]{images/fig_08}
-%%\textit{}
-%\end{center}
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_08}
+%\textit{}
+\end{center}
 
 
 \subparagraph{}\textit{Déterminer l'expression de la fonction de transfert $H_{V3}$ (telle que $\lambda(p) =  H_{V3} Q(p)$) associée au comportement dynamique du vérin ainsi modélisé. On donnera le résultat sous la forme suivante : 
@@ -282,7 +281,7 @@ L'objectif de cette partie est d'analyser le comportement dynamique prévu par l
 Quels que soient les résultats obtenus précédemment, on prendra les valeurs numériques suivantes :
 $C = \SI{1}{V/rad}$, $K_S = \SI{65e-4}{m^3.s^{-1}.V^{-1}}$, $K_V = \SI{1,25e3}{m^{-2}.s}$, $R = \SI{7,5}{rad/m}$.
 
-\subparagraph{}\textit{Tracer le diagramme asymptotique de Bode de la fonction de transfert en boucle ouverte $\text{FTBO}_1$ du système asservi, avec : $M(p)=\text{FTBO}_1(p).\varepsilon(p)$}
+\subparagraph{}\textit{Tracer le diagramme asymptotique de Bode de la fonction de transfert en boucle ouverte $\text{FTBO}_1$ du système asservi, avec : $M(p)=\text{FTBO}_1(p).\varepsilon(p)$.}
 \ifprof
 \begin{corrige}
 \end{corrige}
@@ -317,14 +316,14 @@ L'objectif de cette partie est de définir le correcteur et de déterminer les v
 
 %III.1 —   Synthèse des résultats obtenus précédemment
 
-On considère le schéma-blocs de la Figure \ref{fig31} avec :
- 	 		 		 
- 
+On considère le schéma-blocs de la Figure \ref{figii.3}. 
 
-\begin{center}
-\includegraphics[width=\linewidth]{images/pt_31}
-\captionof{figure}{Architecture générale du contrôle de l'orientation de l'habitacle \label{fig31}}
-\end{center}
+%avec :
+% 	 		 		 
+%\begin{center}
+%\includegraphics[width=\linewidth]{images/pt_31}
+%\captionof{figure}{Architecture générale du contrôle de l'orientation de l'habitacle \label{fig31}}
+%\end{center}
 
 
 
