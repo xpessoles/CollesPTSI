@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.18)  12 NOV 2019 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.18)  13 NOV 2019 13:20
 entering extended mode
 **./DS_02.tex
 (DS_02.tex
@@ -2593,14 +2593,14 @@ ed. <./images/e3a_10.png (PNG copy)> <./images/e3a_11.png> <./images/e3a_01.png
 >]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 204.
+(mdframed)              on input line 205.
 <images/e3a_06.png, id=34, 247.8861pt x 57.5751pt>
 File: images/e3a_06.png Graphic file (type png)
 <use images/e3a_06.png>
-Package pdftex.def Info: images/e3a_06.png  used on input line 210.
+Package pdftex.def Info: images/e3a_06.png  used on input line 211.
 (pdftex.def)             Requested size: 189.47946pt x 44.01053pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 []\T1/mdput/m/n/10 (+20) On a $\OML/mdput/m/it/10 H[]\OT1/mdput/m/n/10 (+20) (\
 OML/mdput/m/it/10 p\OT1/mdput/m/n/10 (+20) ) = []$\T1/mdput/m/n/10 (+20) , $\OM
 L/mdput/m/it/10 H[]\OT1/mdput/m/n/10 (+20) (\OML/mdput/m/it/10 p\OT1/mdput/m/n/
@@ -2610,24 +2610,34 @@ L/mdput/m/it/10 H[]\OT1/mdput/m/n/10 (+20) (\OML/mdput/m/it/10 p\OT1/mdput/m/n/
 <images/e3a_07.png, id=35, 247.8861pt x 117.0774pt>
 File: images/e3a_07.png Graphic file (type png)
 <use images/e3a_07.png>
-Package pdftex.def Info: images/e3a_07.png  used on input line 217.
+Package pdftex.def Info: images/e3a_07.png  used on input line 218.
 (pdftex.def)             Requested size: 189.47946pt x 89.49423pt.
 LaTeX Font Info:    Font shape `TS1/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 222.
+(Font)              scaled to size 8.46002pt on input line 223.
 <images/e3a_08.png, id=36, 211.5102pt x 169.3527pt>
 File: images/e3a_08.png Graphic file (type png)
 <use images/e3a_08.png>
-Package pdftex.def Info: images/e3a_08.png  used on input line 230.
+Package pdftex.def Info: images/e3a_08.png  used on input line 231.
 (pdftex.def)             Requested size: 189.47946pt x 151.7183pt.
+
+Underfull \hbox (badness 5008) in paragraph at lines 242--243
+\T1/mdput/b/n/10 Question    [][] \T1/mdput/m/it/10 (+20) Quel(s) type(s) de co
+r-rec-teur(s) peut
+ []
+
+LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
+(Font)              scaled to size 6.58002pt on input line 260.
+LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
+(Font)              scaled to size 4.70001pt on input line 260.
 <png/logo_lycee.png, id=37, 329.23pt x 265.99374pt>
 File: png/logo_lycee.png Graphic file (type png)
 <use png/logo_lycee.png>
-Package pdftex.def Info: png/logo_lycee.png  used on input line 257.
+Package pdftex.def Info: png/logo_lycee.png  used on input line 264.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 257.
+(Font)              scaled to size 7.52002pt on input line 264.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <8> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 257.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 264.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 45.97325pt.
@@ -2636,10 +2646,6 @@ This may cause the page layout to be inconsistent, however.
 
 [2 <./png/logo_lycee.png> <./images/e3a_06.png> <./images/e3a_07.png> <./images
 /e3a_08.png>]
-LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 260.
-LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 260.
 <images/e3a_09.png, id=62, 220.9053pt x 46.4937pt>
 File: images/e3a_09.png Graphic file (type png)
 <use images/e3a_09.png>
@@ -2670,7 +2676,7 @@ Package pdftex.def Info: png/logo_lycee.png  used on input line 300.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
 (Font)              scaled to size 11.28003pt on input line 300.
 [3 <./images/e3a_09.png> <./images/dr_01.png (PNG copy)>]
-<images/dr_03.png, id=79, 317.0244pt x 191.0337pt>
+<images/dr_03.png, id=77, 317.0244pt x 191.0337pt>
 File: images/dr_03.png Graphic file (type png)
 <use images/dr_03.png>
 Package pdftex.def Info: images/dr_03.png  used on input line 302.
@@ -2695,11 +2701,11 @@ Package logreq Info: Writing requests to 'DS_02.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 305.
  ) 
 Here is how much of TeX's memory you used:
- 55935 strings out of 492902
- 1197826 string characters out of 3133550
+ 55927 strings out of 492902
+ 1197754 string characters out of 3133550
  1843724 words of memory out of 3000000
- 58684 multiletter control sequences out of 15000+200000
- 754159 words of font info for 343 fonts, out of 3000000 for 9000
+ 58682 multiletter control sequences out of 15000+200000
+ 753610 words of font info for 340 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,17n,98p,996b,1956s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
@@ -2714,9 +2720,9 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program
 1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantga
 r/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagdo8a.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
-Output written on DS_02.pdf (4 pages, 1143732 bytes).
+Output written on DS_02.pdf (4 pages, 1141629 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 75996 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 75980 words of extra memory for PDF output out of 89155 (max. 10000000)
 
