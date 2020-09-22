@@ -92,28 +92,41 @@
 %\else
 \begin{multicols}{2}
 %\fi
-\section*{Exercice 1 -- Lois de Kirchoff}
+
+
+\section*{ Trains d'engrenages simples}
+\setcounter{exo}{0}
+
 \ifprof
+\else
+Soit le train d'engrenages suivant. 
+\begin{center}
+\includegraphics[width=.7\linewidth]{images/TrainSimple_01}
+\end{center}
+\fi
+
+\subparagraph{}
+\textit{Déterminer $\dfrac{\omega_{3/0}}{\omega_{1/0}}$ en fonction du nombre de dents des roues dentées.}
+\ifprof
+\begin{corrige}
+On a $\dfrac{\omega_{3/0}}{\omega_{1/0}}=-\dfrac{Z_1}{Z_3}$.
+\end{corrige}
 \else
 \fi
 
-\subparagraph*{}
-\textit{Sur le circuit suivant, déterminer les courants dans chacune des branches et la tension aux bornes de tous les dipôles en fonction de $E$ et des différentes résistances $R_i$.}
-\begin{center}
-\includegraphics[width=\linewidth]{images/fig_01}
-\end{center}
-
-
-\section*{Exercice 2 -- Résistance équivalente}
-\textit{Déterminer la résistance équivalente du montage suivant.}
-\begin{center}
-\includegraphics[width=\linewidth]{images/fig_05}
-\end{center}
+\subparagraph{}
+\textit{Donner une relation géométrique entre $Z_1$, $Z_2$ et $Z_3$ permettant de garantir le fonctionnement du train d'engrenages. }
+\ifprof
+\begin{corrige}
+On a $Z_3 = 2Z_2 + Z_1$.
+\end{corrige}
+\else
+\fi
 
 
 
-\section*{Exercice 3}
-
+\section*{Axe linéaire}
+\setcounter{exo}{0}
 Pour aller rechercher des produits dans leurs rayons, Amazon utilise des axes linéaires afin de déplacer un préhenseur.
 \begin{center}
 \includegraphics[width=\linewidth]{images/fig_11}
@@ -220,9 +233,9 @@ Un motoréducteur permet d'entraîner un système poulie -- courroie permettant 
 \fi
 
 
-\section*{Exercice 4}
+\section*{Calcul de moments}
 
-\setcounter{subparagraph}{0}
+\setcounter{exo}{0}
 On donne la structure suivante : 
 \begin{center}
 \includegraphics[width=.8\linewidth]{images/fig_21}
@@ -242,6 +255,26 @@ On donne la structure suivante :
 
 \subparagraph{}
 \textit{Déterminer $\vect{\mathcal{M}\left(O,\vect{F} \right)}$.}
+
+
+\section*{Lois de Kirchoff}
+\ifprof
+\else
+\fi
+
+\subparagraph*{}
+\textit{Sur le circuit suivant, déterminer les courants dans chacune des branches et la tension aux bornes de tous les dipôles en fonction de $E$ et des différentes résistances $R_i$.}
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_01}
+\end{center}
+
+
+\section*{Résistance équivalente}
+\textit{Déterminer la résistance équivalente du montage suivant.}
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_05}
+\end{center}
+
 
 \end{multicols}
 

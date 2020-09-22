@@ -92,29 +92,38 @@
 %\else
 \begin{multicols}{2}
 %\fi
-\section*{Exercice 1 -- Lois de Kirchoff}
+
+\section*{Train simple}
+\setcounter{exo}{0}
+Soit le train d'engrenages suivant. 
+\begin{center}
+\includegraphics[width=.7\linewidth]{images/TrainSimple_02}
+\end{center}
+
+
+\subparagraph{}
+\textit{Déterminer $\dfrac{\omega_{4/0}}{\omega_{1/0}}$ en fonction du nombre de dents des roues dentées.}
 \ifprof
+\begin{corrige}
+On a $\dfrac{\omega_{4/0}}{\omega_{1/0}}=-\dfrac{Z_1Z_{22}}{Z_4Z_{21}}$.
+\end{corrige}
 \else
 \fi
 
-\subparagraph*{}
-\textit{Sur le circuit suivant, déterminer les courants dans chacune des branches et la tension aux bornes de tous les dipôles en fonction de $E$ et des différentes résistances $R_i$.}
-\begin{center}
-\includegraphics[width=\linewidth]{images/fig_02}
-\end{center}
-
-
-\section*{Exercice 2 -- Résistance équivalente}
-\textit{Déterminer la résistance équivalente du montage suivant.}
-\begin{center}
-\includegraphics[width=\linewidth]{images/fig_06}
-\end{center}
+\subparagraph{}
+\textit{Donner une relation géométrique entre $Z_1$, $Z_{21}$, $Z_{22}$ et $Z_4$ permettant de garantir le fonctionnement du train d'engrenages. }
+\ifprof
+\begin{corrige}
+On a $Z_1+Z_{21}+Z_{22}= Z_4$.
+\end{corrige}
+\else
+\fi
 
 
 
 
-\section*{Exercice 3 -- Calcul de moments}
-
+\section*{ Calcul de moments}
+\setcounter{exo}{0}
 \setcounter{subparagraph}{0}
 On donne la structure suivante : 
 \begin{center}
@@ -138,8 +147,9 @@ On donne la structure suivante :
 
 
 
-\section*{Exercice 4 -- Solide en rotation}
+\section*{Solide en rotation}
 \setcounter{subparagraph}{0}
+\setcounter{exo}{0}
 
  Une machine est entraînée par un moteur électrique de fréquence nominale $1\,500\; \text{tr}\,\text{min}^{-1}$. Celui-ci exerce au démarrage un couple moteur constant de $40\; \text{N}\,\,\text{m}$. Le moment d’inertie de l’ensemble de la chaîne cinématique rapporté à l’axe du rotor est de $12,5\; \text{kg}\,\text{m}^2$. Le couple résistant dû aux frottements est supposé constant et égal à $4\, \text{N} \, \text{m}$.
 
@@ -148,6 +158,26 @@ On donne la structure suivante :
 
 \subparagraph{}
 \textit{Calculer le temps mis pour atteindre la fréquence nominale.}
+
+
+
+\section*{Lois de Kirchoff}
+\setcounter{exo}{0}
+
+\subparagraph*{}
+\textit{Sur le circuit suivant, déterminer les courants dans chacune des branches et la tension aux bornes de tous les dipôles en fonction de $E$ et des différentes résistances $R_i$.}
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_02}
+\end{center}
+
+
+\section*{Résistance équivalente}
+\setcounter{exo}{0}
+\textit{Déterminer la résistance équivalente du montage suivant.}
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_06}
+\end{center}
+
 
 \end{multicols}
 
